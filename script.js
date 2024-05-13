@@ -112,7 +112,13 @@ ____ = {
             
             */
 
-            /* How an operating system kernel is made, and how it's routed */
+            /* 
+                How an operating system kernel is made, and how it's routed 
+
+                usually through special characters expression |*@£$$€{}
+                tied to keyboard mappings
+                
+            */
             /* Event rotational objects and functions */
 
 

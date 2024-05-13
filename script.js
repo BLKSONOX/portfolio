@@ -105,9 +105,16 @@ ____ = {
             /* Static */
             return( {nest: "object functions nesting" + obj} )
 
-            /* How am operating system kernel is made, and how it's routed */
+            /* 
+                This entire function can be additionally scoped in strictly typed and mutated in loosley typed
+                which means you can change the obects state of private, public, static, protected. and package
+                within the object itself which is more handy then documented in language references
+            
+            */
 
+            /* How am operating system kernel is made, and how it's routed */
             /* Event rotational objects and functions */
+
 
 
         },

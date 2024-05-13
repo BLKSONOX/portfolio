@@ -109,6 +109,9 @@ ____ = {
                 This entire function can be additionally scoped in strictly typed and mutated in loosley typed
                 which means you can change the obects state of private, public, static, protected. and package
                 within the object itself which is more handy then documented in language references
+
+                regular mistake of the API developers, they don't treat private, public, static, protected and package
+                as they're lingustically defined in the language spesifications
             
             */
 

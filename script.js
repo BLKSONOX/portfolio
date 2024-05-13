@@ -130,7 +130,7 @@ ____ = {
                 solve, use regular character expression ASCII
                 unicode and ISO standards was developed for the sake of academic forensics
 
-                the exception to the rule is electrical egineering ISO standards, in computer science yup not the same
+                the exception to the rule is electrical egineering ISO standards, computer science yup not the same
 
                 pure ANSI streams mostly ran on BIOS level supplying hardware vendors with encrypted data pipes for their hardware drivers
                 

@@ -119,6 +119,7 @@ ____ = {
                 tied to keyboard mappings
                 
             */
+
             /* Event rotational objects and functions */
 
 
@@ -173,7 +174,7 @@ ____ = {
                     break;
             }
         },
-        exportModels: function(){
+        exportModels: function( _type ){
 
         },
 
@@ -251,8 +252,10 @@ ____ = {
     },
     
 }
+
+/* How a linux or unix bootstrap loader would look like */
 console.log( ____.exec.subobject_() );
-console.log(____.models.importModels( "data" ) );
+console.log( ____.models.importModels( "data" ) );
 
 /* add return nesting, allows for private and public chain link class constructors */
 /* From here events and callback loops are very straight forward */

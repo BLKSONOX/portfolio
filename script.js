@@ -126,6 +126,12 @@ ____ = {
                 run as many mapped special character channels multiplied also known as threads
                 why special characters are reserved in programming languages CPU profiling
                 this is what became the ISO standards, later unicode
+
+                solve, use regular character expression ASCII
+                unicode and ISO standards was developed for the sake of academic forensics
+
+                the exception to the rule is electrical egineering ISO standards, in computer science yup not the same
+
                 pure ANSI streams mostly ran on BIOS level supplying hardware vendors with encrypted data pipes for their hardware drivers
                 
             */

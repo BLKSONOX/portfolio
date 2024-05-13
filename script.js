@@ -152,7 +152,7 @@ ____ = {
     
 
     /* 
-        Substruct Ecample, loosley typed
+        Substruct Example, loosley typed
     */
     models: { 
         

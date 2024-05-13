@@ -77,6 +77,7 @@ ____ = {
                 it's all the same as low level code
 
                 can do this without forever loop
+                however forever loop is needed to have a runtime
 
             */
             xhttp = self.window.____.xhttp;

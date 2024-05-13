@@ -120,11 +120,8 @@ ____ = {
 
                 a kernels test drive on a hardware is;
                 run as many mapped special character channels multiplied also known as threads
-                
                 why special characters are reserved in programming languages CPU profiling
-
                 this is what became the ISO standards, later unicode
-
                 pure ANSI streams mostly ran on BIOS level supplying hardware vendors with encrypted data pipes for their hardware drivers
                 
             */

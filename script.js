@@ -276,6 +276,11 @@ ____ = {
 
             optionally use SSD drives as computation power
 
+            words, use rainbow table and dictionary with functions collision
+            find word freqency wave length create binary of that
+
+            the rest is just factual data sets and bias correction
+
 
          */
     },

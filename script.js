@@ -137,6 +137,9 @@ ____ = {
                 the exception to the rule is electrical egineering ISO standards, computer science yup not the same
 
                 pure ANSI streams mostly ran on BIOS level supplying hardware vendors with encrypted data pipes for their hardware drivers
+
+                browser VMs as in actual POSIX *nix system in the browser through local resources
+                which means you can prototype an operating system in the browser these days
                 
             */
 

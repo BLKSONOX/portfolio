@@ -311,6 +311,8 @@ ____ = {
 
                 RGB channels, can add and have more cuncurrent channel spaces
                 also sub channels
+
+                how TTY channels are made i suspect
             
             */
         }

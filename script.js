@@ -305,6 +305,8 @@ ____ = {
 
                 Octal assignment bridge of new map
                 Don't need the regular conversion rule
+
+                channels assignment instead 
             
             */
         }

@@ -320,6 +320,10 @@ ____ = {
                 and just let it be auto generated through time
 
                 00
+
+                XYZ cordination system also possible this way
+
+                000
             
             */
         }

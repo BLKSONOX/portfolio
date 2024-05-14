@@ -141,6 +141,7 @@ ____ = {
                 browser VMs as in actual POSIX *nix system in the browser through local resources
                 which means you can prototype an operating system in the browser these days
 
+                and with browser pass keys you can store them on USB sticks with key, plug and play
                 
             */
 

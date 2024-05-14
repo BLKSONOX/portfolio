@@ -313,6 +313,8 @@ ____ = {
                 also sub channels
 
                 how TTY channels are made i suspect
+
+                makes it possible to create true color space on 16bit systems
             
             */
         }

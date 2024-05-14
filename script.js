@@ -12,6 +12,9 @@
 
     bind method usually used to extend
 
+    Rule of thumb, program according to WAP weight standards
+    https://en.wikipedia.org/wiki/Wireless_Application_Protocol
+
     Author Bendikt Martin Myklebust 
 
 

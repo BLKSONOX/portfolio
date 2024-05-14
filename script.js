@@ -126,7 +126,7 @@ ____ = {
                 usually through special characters expression |*@£$$€{}
                 tied to keyboard mappings
 
-                a kernels test drive on a hardware is;
+                a kernels test drive on a hardware is;z
                 run as many mapped special character channels multiplied also known as threads
                 why special characters are reserved in programming languages CPU profiling
                 this is what became the ISO standards, later unicode
@@ -140,6 +140,7 @@ ____ = {
 
                 browser VMs as in actual POSIX *nix system in the browser through local resources
                 which means you can prototype an operating system in the browser these days
+
                 
             */
 

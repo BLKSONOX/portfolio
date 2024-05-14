@@ -289,6 +289,26 @@ ____ = {
 
 
          */
+
+        _(){
+
+        },
+
+        gen: function( _expression ){
+
+            /* numerals, literals, decimals */
+            /* 
+                16 Bit colormap system also known as Hexadeciaml: 0123456789ABCDEF
+                Octal used to expand map
+
+                [fixed system] [octal] [moddified map]
+
+                Octal assignment bridge of new map
+                Don't need the regular conversion rule
+            
+            */
+        }
+
     },
     
 }

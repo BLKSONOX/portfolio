@@ -304,9 +304,13 @@ ____ = {
                 [fixed system] [octal] [moddified map]
 
                 Octal assignment bridge of new map
-                Don't need the regular conversion rule
 
-                channels assignment instead 
+                channels assignment
+
+                Octal, Decimal, Hexidecimal
+
+                RGB channels, can add and have more cuncurrent channel spaces
+                also sub channels
             
             */
         }

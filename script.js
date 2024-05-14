@@ -313,7 +313,7 @@ console.log( ____.models.importModels( "data" ) );
     this JS document:
 
     <object>
-    |   <constructor>(property)
+       <constructor>(property)
             <function>
             <struct>(property)
                 <function>

@@ -142,6 +142,8 @@ ____ = {
                 which means you can prototype an operating system in the browser these days
 
                 and with browser pass keys you can store them on USB sticks with key, plug and play
+
+                however that's slightly lazy, how many layers of unicode can we ship?
                 
             */
 

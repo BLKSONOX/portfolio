@@ -315,6 +315,11 @@ ____ = {
                 how TTY channels are made i suspect
 
                 makes it possible to create true color space on 16bit systems
+
+                also possible to ignore the octal system just focus on channels and remove the fixed maps
+                and just let it be auto generated through time
+
+                00
             
             */
         }

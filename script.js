@@ -269,7 +269,9 @@ ____ = {
             link memory addresses with CPU threads
 
             AI from there mutate functions into strict functions scopes and cells
-            
+
+            optionally use SSD drives as computation power
+
 
          */
     },

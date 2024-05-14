@@ -264,6 +264,11 @@ ____ = {
 
             this section is the equivlent to top
 
+            3D, polygon extrapolation by memory address 0x000000000
+            link memory addresses with CPU threads
+
+            AI from there mutate functions into strict functions scopes and cells
+
          */
     },
     

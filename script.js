@@ -256,6 +256,7 @@ ____ = {
     */
     hexStream:{
         /* 
+
             assemblers example address 0x000000000 this address means something, assembly of that address is just signal and pointers similarly to C itself
             in JavaScript it's both undefined functions and prototype functions
 
@@ -268,6 +269,7 @@ ____ = {
             link memory addresses with CPU threads
 
             AI from there mutate functions into strict functions scopes and cells
+            
 
          */
     },

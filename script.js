@@ -324,8 +324,17 @@ ____ = {
                 XYZ cordination system also possible this way
 
                 000
+                
+                octal (221) into decimal()
+
+                2x8 2x8 1x8
+
+                3D graphics, in what space does an octal live 8
+
             
             */
+
+            return Math.floor(Date.now() / 1000)
         }
 
     },

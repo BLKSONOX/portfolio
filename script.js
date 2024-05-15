@@ -325,9 +325,9 @@ ____ = {
 
                 000
                 
-                octal (221) into decimal()
+                octal (121) into decimal()
 
-                2x8 2x8 1x8
+                1x8 2x8 1x8
 
                 3D graphics, in what space does an octal live 8
 

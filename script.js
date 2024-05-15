@@ -344,7 +344,7 @@ ____ = {
 
                 time functions are pointers which means the primitives created are usable data structures
 
-                yep it's all rudnimentary math
+                yep it's all rudimentary math
 
             
             */

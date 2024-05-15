@@ -331,6 +331,9 @@ ____ = {
 
                 3D graphics, in what space does an octal live 8
 
+                assembly and command resources;
+                https://docs.kernel.org/bpf/standardization/instruction-set.html#bpf-instruction-set-architecture-isa
+
             
             */
 

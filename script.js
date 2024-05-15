@@ -331,7 +331,10 @@ ____ = {
 
                 3D graphics, in what space does an octal live 8
 
-                Same space as a triangle 
+                Same space as a triangle
+                numbers inside numbers how many threes and fours are inside of an octal
+
+                etc 
 
                 additional assembly and command resources;
                 https://docs.kernel.org/bpf/standardization/instruction-set.html#bpf-instruction-set-architecture-isa

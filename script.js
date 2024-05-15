@@ -348,6 +348,8 @@ ____ = {
 
                 bootloaders, file systems, device drivers all written in the same manner 
                 https://interrupt.memfault.com/blog/how-to-write-a-bootloader-from-scratch
+
+                https://linuxgazette.net/issue93/bhaskaran.html
             
             */
 

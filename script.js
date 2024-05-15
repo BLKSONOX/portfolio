@@ -346,6 +346,8 @@ ____ = {
 
                 yep it's all rudimentary math
 
+                bootloaders, file systems, device drivers all written in the same manner 
+
             
             */
 

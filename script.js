@@ -339,6 +339,11 @@ ____ = {
                 additional assembly and command resources;
                 https://docs.kernel.org/bpf/standardization/instruction-set.html#bpf-instruction-set-architecture-isa
 
+                primitives:
+                a pointer is a circle, hex stream of that circle is the primitives created from
+
+                time functions are pointers which means the primitives created are usable data structures
+
             
             */
 

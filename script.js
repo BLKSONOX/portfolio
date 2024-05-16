@@ -407,7 +407,7 @@ ____ = {
 
             the discussion; "can neither confirm or deny"
 
-            the clue is in the Hex Genration and representaiton of images; bitmaps, png, jpg
+            the clue is in the Hex Genration and representation of images; bitmaps, png, jpg
             with the controller and the composer this is possible with even javascript
 
             image creation which also is used as canvas elements

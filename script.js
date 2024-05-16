@@ -366,6 +366,7 @@ ____ = {
                 "my hex dump is not the same as your hex dump, my ooctal, decimal, hexidecimal conversion is not the same as your conversion"
 
                 as long as the addresses stays the same, the conversion models can be whatever you like between; ooctal, decimal, hexidecimal 
+                https://byjus.com/maths/hexadecimal-number-system/
             
             */
 

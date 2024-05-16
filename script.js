@@ -367,6 +367,8 @@ ____ = {
 
                 as long as the addresses stays the same, the conversion models can be whatever you like between; ooctal, decimal, hexidecimal 
                 https://byjus.com/maths/hexadecimal-number-system/
+
+                also useful for filesystem partionion tables and read and write block addresses 
             
             */
 

@@ -193,10 +193,10 @@ ____ = {
         importModels: function( _type ){
             /* create JavaScript or JSON models for messages */
             switch(_type){
-                case "data":
+                case data:
                     return "this is a data import";
                     break;
-                case "document":
+                case document:
                     return "this is a document model import";
                     break;
             }
@@ -205,10 +205,10 @@ ____ = {
 
             /* create JavaScript or JSON models for messages */
             switch(_type){
-                case "data":
+                case data:
                     return "this is a data import";
                     break;
-                case "document":
+                case document:
                     return "this is a document model import";
                     break;
             }

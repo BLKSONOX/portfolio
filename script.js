@@ -337,7 +337,11 @@ ____ = {
                 
                 octal (121) into decimal()
 
-                1x8 2x8 1x8
+                1x8(2) + 2x8(1) + 1x8(0) ------ number rows in reverse, in the upper (0), (1.5), (2) ~ 8(0), 16(1.5), 8(2) 8, 24, 16 ~~ 24 hyperbola /\ (row repeats four times) 0240
+                1x64   + 2x8    + 1x1    
+                64     + 16     + 1
+                81
+
 
                 3D graphics, in what space does an octal live 8
 
@@ -439,6 +443,7 @@ ____ = {
 /* How a linux or unix bootstrap loader would look like */
 console.log( ____.exec.subobject_() );
 console.log( ____.models.importModels( data ) );
+
 
 /* add return nesting, allows for private and public chain link class constructors */
 /* From here events and callback loops are very straight forward */

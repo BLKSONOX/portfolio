@@ -414,6 +414,8 @@ ____ = {
 
             pure image creation, weather reports still uses this
 
+            SVG and PNG usually used for this
+
             
 
 

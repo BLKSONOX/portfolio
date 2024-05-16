@@ -360,6 +360,12 @@ ____ = {
                 https://interrupt.memfault.com/blog/how-to-write-a-bootloader-from-scratch
 
                 https://linuxgazette.net/issue93/bhaskaran.html
+
+                there's other ways of doing the conversion table Octal, Decimal, Hexidecimal
+
+                "my hex dump is not the same as your hex dump, my ooctal, decimal, hexidecimal conversion is not the same as your conversion"
+
+                as long as the addresses stays the same, the conversion models can be whatever you like between; ooctal, decimal, hexidecimal 
             
             */
 

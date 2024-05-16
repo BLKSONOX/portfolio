@@ -388,7 +388,28 @@ ____ = {
 
             which technically means you don't need the stylesheet document
             how webpages was initially created with C at CERN
-            and how it was additionally supplied with a scripting language JavaScript to modulate           
+            and how it was additionally supplied with a scripting language JavaScript to modulate
+
+            The WEB API's are mostly just javascript Object of its default behavior
+            yep, even canvas 
+
+            it's a closed system, which is why people are retaliating
+            ECMA's document standards are written for modernity of allowance in doing this fully with the DOM, which it initially does
+            it's not a sepparate frame window inside of written in C or C++
+
+            They have a BETA of that now in 2024
+
+            older browsers had defined in their standard javascript library
+            regular OpenGL functions
+
+            WebGL is now used, however you can still achive very much the same draws
+            width document draws
+
+            the discussion; "can neither confirm or deny"
+
+            the clue is in the Hex Genration and representaiton of images; bitmaps, png, jpg
+
+            
 
 
         */

@@ -378,7 +378,25 @@ ____ = {
 
                 inside the addition operation all operations are allowed
 
+                explainer operator within math ~ one for each base number within the number expressed parted 24  ~~
+                and yes it's connected with hex representation and hexidecimals
+
+                in the above exponent there's a hex and hexidecimal expression missing
+                the hex set
+
+                the expression would be to the whole expresional set
+                8(3) 6(2) 4(1)
+
+                the exponent creating a Matrix Exponential
+
                 https://en.wikipedia.org/wiki/Exponentiation
+
+                the hex matrix is a decimal of the exponent base
+
+                0x21
+
+                with a numeral and a litteral value expression of the decimals representing the number
+                the largest hyperbole in the exponent is ignored
 
                 ---------------------------
                 math need to express: 1,2,4,6,8,16,24,32,64 and more bits

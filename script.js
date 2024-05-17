@@ -422,6 +422,8 @@ ____ = {
 
                 the enumering of the sequence continues and is used as decimals in exponents
 
+                this backtracking of an online tutorial found follows all mathematical laws
+
                 ---------------------------
                 math need to express: 1,2,4,6,8,16,24,32,64 and more bits
                 which means in decimals and in hexadecimal

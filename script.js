@@ -381,6 +381,8 @@ ____ = {
                 explainer operator within math ~ one for each base number within the number expressed parted 24  ~~
                 and yes it's connected with hex representation and hexidecimals
 
+                https://en.wikipedia.org/wiki/Loop_space
+
                 in the above exponent there's a hex and hexidecimal expression missing
                 the hex set
 
@@ -397,6 +399,28 @@ ____ = {
 
                 with a numeral and a litteral value expression of the decimals representing the number
                 the largest hyperbole in the exponent is ignored
+
+                0x21 points to the answer 64 as an address
+                
+                the decimal times the number slots
+                2x2 with a short exponential addition matrix of 1+2x2
+
+                giving the anwswer 46 rotate that as a circle 360 being 1
+
+                0 representing the circle
+
+                https://en.wikipedia.org/wiki/Loop_(topology)
+
+                giving the answer 64
+
+                1x64 is then a sub matrix of
+
+                hexidecimal representation would be 9 offset
+
+                10 being the start of the Litteral alphabetical sequence
+                why it's called hexidecimal
+
+                the enumering of the sequence continues and is used as decimals in exponents
 
                 ---------------------------
                 math need to express: 1,2,4,6,8,16,24,32,64 and more bits

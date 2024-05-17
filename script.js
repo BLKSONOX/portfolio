@@ -345,7 +345,10 @@ ____ = {
 
                 ---------------------------
                 math need to express: 1,2,4,6,8,16,24,32,64 and more bits
-                which means in decimals and in hexadecimal 
+                which means in decimals and in hexadecimal
+
+                octal is the pointer to the whole set in one number sequence
+                https://en.wikipedia.org/wiki/Octal
 
                 you just need to create a table that corresponds to each bit sequence
                 also known as an instrution set in computer science

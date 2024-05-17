@@ -369,7 +369,7 @@ ____ = {
                 200 x 4 ~~ 800
                 16 x 4 ~~ 24+40
 
-                64
+                864
 
                 correct way of using Exponents, parting up the number base to multiply in a set
                 differential equation is just substraction of

@@ -368,7 +368,7 @@ ____ = {
                 24x 20x20 4x4 ~~ 200 ~~ 16 ~~ 200+16
                 24x 20x20 4x4 ~~ 200 ~~ 16 ~~ 200+16
 
-                200 x 4 ~~ 800
+                200 x 4 ~~ 80+0
                 16 x 4 ~~ 24+40
 
                 864
@@ -425,6 +425,7 @@ ____ = {
                 the enumering of the sequence continues and is used as decimals in exponents
 
                 this backtracking of an online tutorial found follows all mathematical laws
+                and is possible to write as regex expression pattern
 
                 ---------------------------
                 math need to express: 1,2,4,6,8,16,24,32,64 and more bits

@@ -408,7 +408,7 @@ ____ = {
                 0x21
 
                 with a numeral and a litteral value expression of the decimals representing the number
-                the largest hyperbole in the exponent is ignored
+                the largest hyperbola in the exponent is ignored
 
                 0x21 points to the answer 64 as an address
                 

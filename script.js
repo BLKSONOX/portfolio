@@ -427,6 +427,15 @@ ____ = {
                 this backtracking of an online tutorial found follows all mathematical laws
                 and is possible to write as regex expression pattern
 
+
+                differential equation used in screen graphics;
+                duplicate base reverse toward the set where it delinates from the Y axis
+
+                also how SSD blocks are written to as well as chips data symetry with change of bases and subsets as redraws ontop
+                of the base, to follow scale
+
+                [fixed system] [octal] [moddified map]
+
                 ---------------------------
                 math need to express: 1,2,4,6,8,16,24,32,64 and more bits
                 which means in decimals and in hexadecimal

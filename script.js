@@ -343,6 +343,7 @@ ____ = {
                 the whole mathemathical equation
 
                 exponentes are still number tables and positional points
+                this is allowed in octal numeral system
 
                 1x8(2) + 2x8(1) + 1x8(0) ------ number rows in reverse, in the upper (0), (1.5), (2) ~ 8(0), 16(1.5), 8(2) ~~ 8, 24, 16 ~~ 24 hyperbola /\ (row repeats four times) 0240
 

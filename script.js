@@ -354,9 +354,11 @@ ____ = {
                 24+24+24+24
                 0.00024
 
-                in regular instruction sets you shift between mathematical expressed rows as decimal points
+                in regular computer science instruction sets you shift between mathematical expressed rows as decimal points
 
                 also known as correct pointer sets
+                the whole number would be the new octal base
+
 
                 ---------------------------
                 math need to express: 1,2,4,6,8,16,24,32,64 and more bits

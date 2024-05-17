@@ -337,10 +337,35 @@ ____ = {
                 
                 octal (121) into decimal()
 
-                1x8(2) + 2x8(1) + 1x8(0) ------ number rows in reverse, in the upper (0), (1.5), (2) ~ 8(0), 16(1.5), 8(2) 8, 24, 16 ~~ 24 hyperbola /\ (row repeats four times) 0240
+                Elementary and advanced Algebra
+
+                1x8(2) + 2x8(1) + 1x8(0) ------ number rows in reverse, in the upper (0), (1.5), (2) ~ 8(0), 16(1.5), 8(2) ~~ 8, 24, 16 ~~ 24 hyperbola /\ (row repeats four times) 0240
+
+                24+24+24+24
+
+                ---------------------------
+                math need to express: 1,2,4,6,8,16,24,32,64 and more bits
+                which means in decimals and in hexadecimal 
+
+                you just need to create a table that corresponds to each bit sequence
+                also known as an instrution set in computer science
+
+                "
+                Distinguishing from decimal
+                In contexts where the base is not clear, hexadecimal numbers can be ambiguous and confused with numbers expressed in other bases. 
+                There are several conventions for expressing values unambiguously.
+                A numerical subscript (itself written in decimal) can give the base explicitly: 15910 is decimal 159; 15916 is hexadecimal 159, which equals 34510. 
+                Some authors prefer a text subscript, such as 159decimal and 159hex, or 159d and 159h. "
+
+                https://en.wikipedia.org/wiki/Hexadecimal
+
+                ---------------------------
+                
                 1x64   + 2x8    + 1x1    
                 64     + 16     + 1
                 81
+
+                24+24+24+24 ~~ 80+16-6-24 = 59 ~ 14 ~ 95 ~ 2x2.5
 
 
                 3D graphics, in what space does an octal live 8

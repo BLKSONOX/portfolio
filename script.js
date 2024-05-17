@@ -371,8 +371,13 @@ ____ = {
 
                 64
 
-                correct way of using Exponents
-                
+                correct way of using Exponents, parting up the number base to multiply in a set
+                differential equation is just substraction of
+
+                after set is introduced
+
+                inside the addition operation all operations are allowed
+
                 https://en.wikipedia.org/wiki/Exponentiation
 
                 ---------------------------

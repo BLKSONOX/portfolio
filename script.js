@@ -339,7 +339,7 @@ ____ = {
 
                 Elementary and advanced Algebra
 
-                in the first is moves to in the 1.5 according to numberpositions and composition of 
+                in the first is moved to in the 1.5 according to numberpositions and composition of 
                 the whole mathemathical equation
 
                 exponentes are still number tables and positional points

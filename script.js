@@ -368,6 +368,14 @@ ____ = {
                 24x 20x20 4x4 ~~ 200 ~~ 16 ~~ 200+16
                 24x 20x20 4x4 ~~ 200 ~~ 16 ~~ 200+16
 
+                Find N find XYZ
+                natural transformation
+
+                https://en.wikipedia.org/wiki/Natural_transformation
+
+                operators can be used as se fit throughout the entirety of the set
+                to create a new base
+
                 200 x 4 ~~ 80+0
                 16 x 4 ~~ 24+40
 

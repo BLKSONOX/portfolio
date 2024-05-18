@@ -344,7 +344,7 @@ ____ = {
                 number composition in math allows number slots to be sepparate but also not
                 composing the octal number 121
 
-                how binary works, also how one can use regular numbers and multiplucation tables
+                how binary works, also how one can use regular numbers and multiplication tables
                 to compose a number that's outside of, the mid composite in the illustration represents the various multiplication
                 table rules, exponentes also allowed to composite a number base also
 
@@ -392,6 +392,7 @@ ____ = {
 
                 24+24+24+24
                 0.00024
+                https://en.wikipedia.org/wiki/Cartesian_coordinate_system
 
                 in regular computer science instruction sets you shift between mathematical expressed rows as decimal points
 

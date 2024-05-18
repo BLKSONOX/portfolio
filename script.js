@@ -529,6 +529,9 @@ ____ = {
                 both cordinates follows the hyperbola
 
                 000
+
+                https://en.wikipedia.org/wiki/Sine_and_cosine
+                https://en.wikipedia.org/wiki/Tangent
                  
                 
 

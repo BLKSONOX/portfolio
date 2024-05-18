@@ -335,6 +335,14 @@ ____ = {
 
                 000
                 
+                Octal outside of an octal while inside of an octal
+                1x1+1x2+1x1
+
+                binary translates into 0001 0010 0001, step 1-3
+
+                the creator of the blog post where this outtake was derrived from, was not aware of this while picking out that number
+                
+
                 octal (121) into decimal()
 
                 Elementary and advanced Algebra

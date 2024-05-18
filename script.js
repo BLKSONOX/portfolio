@@ -454,6 +454,7 @@ ____ = {
                 2x2 with a short exponential addition matrix of 1+2x2
 
                 giving the anwswer 46 rotate that as a circle 360 being 1
+                https://en.wikipedia.org/wiki/Positional_notation
 
 
                 https://en.wikipedia.org/wiki/Loop_(topology)

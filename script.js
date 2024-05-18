@@ -455,6 +455,8 @@ ____ = {
                 also how SSD blocks are written to as well as chips data symetry with change of bases and subsets as redraws ontop
                 of the base, to follow scale
 
+                all of this has network and other hardware applications as well 
+                
                 [fixed system] [octal] [moddified map]
 
                 ---------------------------

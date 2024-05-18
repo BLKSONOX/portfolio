@@ -346,7 +346,7 @@ ____ = {
 
                 how binary works, also how one can use regular numbers and multiplucation tables
                 to compose a number that's outside of, the mid composite in the illustration represents the various multiplication
-                table rules
+                table rules, exponentes also allowed to composite a number base
 
                 https://en.wikipedia.org/wiki/Composition_(combinatorics)#/media/File:Binary_and_compositions_4.svg
 

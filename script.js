@@ -513,7 +513,14 @@ ____ = {
                     64     + 16     + 1
                     81
 
+                (121)8 = 81(lower 10)
+                
+                https://cdn1.byjus.com/wp-content/uploads/2019/06/decimal-to-hexa.png
+                
+                81(lower 10) = 51(lower 16)
+
                 https://en.wikipedia.org/wiki/Loop_group
+                
 
 
                 3D graphics, in what space does an octal live 8

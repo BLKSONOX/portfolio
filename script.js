@@ -450,6 +450,8 @@ ____ = {
 
                 with a numeral and a litteral value expression of the decimals representing the number
                 the largest hyperbola in the exponent is ignored
+                
+                https://en.wikipedia.org/wiki/Hyperbola#/media/File:Hyperbel-def-e.svg
 
                 0x21 points to the answer 64 as an address
                 

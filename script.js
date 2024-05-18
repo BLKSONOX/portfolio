@@ -455,7 +455,6 @@ ____ = {
 
                 giving the anwswer 46 rotate that as a circle 360 being 1
 
-                0 representing the circle
 
                 https://en.wikipedia.org/wiki/Loop_(topology)
 

@@ -460,6 +460,10 @@ ____ = {
 
                 giving the answer 64
 
+                
+                0x also the address for the lost numbers which can be extrapolated from the address itself
+                returning to start of the loop, also known as return 0 in C
+
                 1x64 is then a sub matrix of
 
                 hexidecimal representation would be 9 offset

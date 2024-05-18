@@ -403,6 +403,12 @@ ____ = {
 
                 Exponent equation of the whole set would be 24x24x24x24
 
+                Heavyside step function on 20x20
+                https://en.wikipedia.org/wiki/Heaviside_step_function
+
+                scale can cange before manipulation of the set, load set
+                fixed map, octal, decimal, hexidecimal, changed map
+
                 24x 20x20 4x4 ~~ 200 ~~ 16 ~~ 200+16
                 24x 20x20 4x4 ~~ 200 ~~ 16 ~~ 200+16
                 24x 20x20 4x4 ~~ 200 ~~ 16 ~~ 200+16
@@ -450,7 +456,7 @@ ____ = {
 
                 with a numeral and a litteral value expression of the decimals representing the number
                 the largest hyperbola in the exponent is ignored
-                
+
                 https://en.wikipedia.org/wiki/Hyperbola#/media/File:Hyperbel-def-e.svg
 
                 0x21 points to the answer 64 as an address

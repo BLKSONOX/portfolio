@@ -444,6 +444,7 @@ ____ = {
                 the hex matrix is a decimal of the exponent base
 
                 0x21
+                https://en.wikipedia.org/wiki/Heaviside_step_function
 
                 with a numeral and a litteral value expression of the decimals representing the number
                 the largest hyperbola in the exponent is ignored
@@ -454,6 +455,9 @@ ____ = {
                 2x2 with a short exponential addition matrix of 1+2x2
 
                 giving the anwswer 46 rotate that as a circle 360 being 1
+
+                https://en.wikipedia.org/wiki/Heaviside_step_function
+                
                 https://en.wikipedia.org/wiki/Positional_notation
 
 

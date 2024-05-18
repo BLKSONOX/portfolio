@@ -512,8 +512,6 @@ ____ = {
                 64     + 16     + 1
                 81
 
-                24+24+24+24 ~~ 80+16-6-24 = 59 ~ 14 ~ 95 ~ 2x2.5
-
 
                 3D graphics, in what space does an octal live 8
 

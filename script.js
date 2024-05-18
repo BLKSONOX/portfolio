@@ -384,9 +384,11 @@ ____ = {
 
                 https://en.wikipedia.org/wiki/Compact-open_topology C(X,Y)
 
-                Directly natural transformation towards hyperbola 
+                Directly natural transformation towards hyperbola and Dirac delta function
 
                 https://en.wikipedia.org/wiki/Hyperbola
+
+                https://en.wikipedia.org/wiki/Dirac_delta_function
 
                 equal to is itself a row of itself correctly expressed in octal, decimal and in hexadecimal
 
@@ -457,7 +459,7 @@ ____ = {
                 giving the anwswer 46 rotate that as a circle 360 being 1
 
                 https://en.wikipedia.org/wiki/Heaviside_step_function
-                
+
                 https://en.wikipedia.org/wiki/Positional_notation
 
 

@@ -520,6 +520,16 @@ ____ = {
                 81(lower 10) = 51(lower 16)
 
                 https://en.wikipedia.org/wiki/Loop_group
+
+                high's and lows follows Cartesian cordinates as well, answer given is the origo point
+                however added context to in relation to can repeat the above operations, math is contextual as much as regular language
+
+                https://en.wikipedia.org/wiki/Cartesian_coordinate_system
+
+                both cordinates follows the hyperbola
+
+                000
+                 
                 
 
 

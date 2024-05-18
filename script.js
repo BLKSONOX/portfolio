@@ -351,6 +351,7 @@ ____ = {
                 https://en.wikipedia.org/wiki/Composition_(combinatorics)#/media/File:Binary_and_compositions_4.svg
 
                 Also known as Bijection
+                https://en.wikipedia.org/wiki/Bijection
                 
 
 

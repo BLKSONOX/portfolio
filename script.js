@@ -342,7 +342,7 @@ ____ = {
                 https://en.wikipedia.org/wiki/Composition_(combinatorics)
 
                 number composition in math allows number slots to be sepparate but also not
-                composing the number 123
+                composing the octal number 121
 
                 how binary works, also how one can use regular numbers and multiplucation tables
                 to compose a number that's outside of, the mid composite in the illustration represents the various multiplication

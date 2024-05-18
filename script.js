@@ -513,6 +513,8 @@ ____ = {
                 64     + 16     + 1
                 81
 
+                https://en.wikipedia.org/wiki/Loop_group
+
 
                 3D graphics, in what space does an octal live 8
 

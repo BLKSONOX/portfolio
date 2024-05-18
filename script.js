@@ -339,6 +339,8 @@ ____ = {
                 1x1+1x2+1x1
 
                 binary translates into 0001 0010 0001, step 1-3
+                how old TV console game consoles cartridges was made, one octal governing the entirety of the game instruction set
+                and graphics
 
                 the creator of the blog post where this outtake was derrived from, was not aware of this while picking out that number
                 
@@ -456,7 +458,7 @@ ____ = {
                 of the base, to follow scale
 
                 all of this has network and other hardware applications as well 
-                
+
                 [fixed system] [octal] [moddified map]
 
                 ---------------------------

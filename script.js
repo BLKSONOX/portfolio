@@ -580,6 +580,13 @@ ____ = {
                 https://byjus.com/maths/hexadecimal-number-system/
 
                 also useful for filesystem partionion tables and read and write block addresses 
+
+                key and interaction input only does aroun 20-30 instruction sets a sec
+
+                which corresponds to Hz behaviour
+                so does the screens with an addiational instruction sett of the whole screen draw
+
+                20-60 in most cases special cases 120Hz
             
             */
 

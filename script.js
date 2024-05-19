@@ -604,6 +604,9 @@ ____ = {
 
                 https://www.komplett.no/product/1184005/datautstyr/lagring/harddiskerssd/ssd-msata/kingston-kc600ms-512gb-msata-ssd
 
+                a flash board, is still a board with instruction sets in and out the SSD or Flash drives address still even with restrictions
+                operates as a custom chip which can hold instruction sets just like a CMOS flash battery and BIOS
+
 
             
             */

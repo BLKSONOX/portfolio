@@ -587,6 +587,24 @@ ____ = {
                 so does the screens with an addiational instruction sett of the whole screen draw
 
                 20-60 in most cases special cases 120Hz
+
+                IBM 801 conceptual processor from the 1970s
+                does around 20 000 instruction sets pr phone call
+
+                End, mid, start tones
+                https://en.wikipedia.org/wiki/IBM_801
+
+                which means; in theory you can have that old chip? run all current computing operations
+
+                one standard SSD NAND chip?
+                does 80000 IOPS a second 
+
+                computer only needs about 200-300 of that a second to operate as current speeds of draws for all graphics
+                and sounds, IBM 801 needed to read and write sound draws to route them properly by wave lenght
+
+                https://www.komplett.no/product/1184005/datautstyr/lagring/harddiskerssd/ssd-msata/kingston-kc600ms-512gb-msata-ssd
+
+
             
             */
 

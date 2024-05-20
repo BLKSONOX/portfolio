@@ -19,6 +19,8 @@
     https://github.com/facebook/hermes/blob/main/README.md
     https://en.wikipedia.org/wiki/GNU_Guile
 
+    "Guile includes compiler front-ends for ECMAScript"
+
     Document Author Bendikt Martin Myklebust 
 
 

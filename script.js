@@ -15,8 +15,9 @@
     Rule of thumb, program according to WAP weight standards
     https://en.wikipedia.org/wiki/Wireless_Application_Protocol
 
-    possiblew JS Engine
+    possiblew JS Engines
     https://github.com/facebook/hermes/blob/main/README.md
+    https://en.wikipedia.org/wiki/GNU_Guile
 
     Author Bendikt Martin Myklebust 
 

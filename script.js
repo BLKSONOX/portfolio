@@ -52,7 +52,12 @@ ____ = {
     */
 
     
-    /* why not objects? binding tree unsets, just like C, two types of arrays in C [] and {} */
+    /* 
+        why not objects? binding tree unsets, just like C, two types of arrays in C [] and {}
+        also possible to handle Event handling and binding with POSIX threads
+        https://en.wikipedia.org/wiki/Pthreads#Example
+    
+    */
     
     bindingTree: new Array,
 

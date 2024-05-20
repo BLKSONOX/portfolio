@@ -15,6 +15,9 @@
     Rule of thumb, program according to WAP weight standards
     https://en.wikipedia.org/wiki/Wireless_Application_Protocol
 
+    possiblew JS Engine
+    https://github.com/facebook/hermes/blob/main/README.md
+
     Author Bendikt Martin Myklebust 
 
 
@@ -324,7 +327,7 @@ ____ = {
 
                 Octal, Decimal, Hexidecimal
 
-                RGB channels, can add and have more cuncurrent channel spaces
+                RGB channels, can add and have more cuncurrent channel spaces1
                 also sub channels
 
                 how TTY channels are made i suspect

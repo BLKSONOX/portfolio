@@ -1,39 +1,62 @@
 ___ = {
 
-
-    splashSiteBrand: "M45.9736 48.5647C42.7927 53.4312 37.425 57.0435 31.6597 57.0435V85.0886C31.6597 85.0886 32.4549 98.3837 18.1906 91.7111V16.1548C10.7852 13.5961 4.62221 8.37842 0.795219 1.5051L0 0V59.6774V119.355L18.1906 99.6881V94.4704C23.2602 96.9288 50.1485 108.97 49.9994 83.3828C49.9994 56.1906 49.9994 42.2934 49.9994 42.2934L45.9736 48.5647Z",
-
+    matriceCollections: [],
+    
     anim:{
         
         _(_svg,dur, count){
-            
+            /* CSS mode */   
         }
     },
 
-    getMatrice:{ 
-        _(source, dest){
-
+    chainMatrice: {
+        _(collection){
+            /* Chain SVGS document mode */
         }
     },
+    generateDocument: {
 
-    matricePartition: {
-        _(start, mid, end){
-                /* 
-                    when working with differentials it has to be differentials that seems like uniformity
-                    mili second matrice partitioning
-                    which is extremley labor intensive for the CPU and GPU
-                    which is why one partition up the element into their own matrices, to make the shapes seem uniform
-                    Tools automate this, they part the whole objects
-
-                    Paralleled animated ojects usually disconnected at their matrice calculation usually on 2D surfaces that's clear cuts on more complex organic shapes, aproximatly 
-                    overlays are used and implemented as well to cover up seem problems
-
-                    all of it aproximatly calculated according to said shape
-
-                    how? M is the SVG object root document from there; inside of matrice of the uniformed shape, it's possible
-
-                    it makes graphics elements their own VM
-                */
-        }
     },
 }
+
+/* WIP */
+/* animations stage layers */
+/* 
+    SVGs functions like chains put together when doing animations in document animations 
+    and CSS animations combined with blending modes makes it possible to create video channel graphics
+    
+    Browsers uses GPU or fall backs CPU with SVG graphics
+    which means you can translate and transcode SVG graphics into video streams layered
+    scale? would just be scale 
+
+    generate styelsheet for generic use of the various modes
+
+    why is this useful? full broadcast control of said streams or bit streams
+    why outside of the standards? 
+
+    codec control
+
+    and with full channel controll to have multiple video channels mixed
+
+*/
+___.matriceCollections[0] = 
+[ 
+
+ /* 
+    back plate can be direct video feed formed by rectangles the browser draws them anyways which means
+    latency would be at an all time low it's mostly cordinates write out of the compression algorithms
+    as seen possible to do in pure document mode
+    current delay oun this setup; 700nano seconds at the heaviest during profiling of this 20 SVG files in a flipbook in CSS 500x500 frame lowest 1u during the animation which means there's room for improvement
+
+    direct browaer draw native browaser engine
+    which means the SVG format also translates into operating system standards
+
+    which means tools like figma and penpot have too much overhead
+
+*/
+ 'rect:0.490234:0.221191:500x500',
+ 'M239.209 268.916C231.805 266.357 225.642 261.14 221.816 254.267L221.021 252.762V296.561L239.209 276.896V268.916Z',
+ 'M266.994 253.28C263.813 258.146 258.445 261.758 252.68 261.758V262.294C252.68 262.294 253.475 275.589 239.211 268.917C231.806 266.358 225.643 261.14 221.816 254.267L221.021 252.762V296.56L239.211 276.894V271.676C244.281 274.134 271.169 286.175 271.02 260.588C271.02 260.905 271.02 247.008 271.02 247.008L266.994 253.28Z',
+ 'M266.994 225.296C263.813 230.162 258.445 233.774 252.68 233.774V261.82C252.68 261.82 253.475 275.115 239.211 268.442C231.806 265.883 225.643 260.666 221.816 253.792L221.021 252.287V296.086L239.211 276.419V271.201C244.281 273.66 271.169 285.701 271.02 260.114C271.02 232.922 271.02 219.024 271.02 219.024L266.994 225.296Z',
+ 'M266.994 225.296C263.813 230.162 258.446 233.774 252.68 233.774V261.82C252.68 261.82 253.475 275.115 239.211 268.442L239.211 249.879C231.806 247.32 225.643 242.102 221.816 235.229L221.021 233.724L221.021 236.408V296.086L239.211 276.419V271.201C244.281 273.66 271.169 285.701 271.02 260.114C271.02 232.922 271.02 219.024 271.02 219.024L266.994 225.296Z'
+];

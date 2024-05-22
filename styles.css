@@ -4,7 +4,7 @@
 
 
 body{
-    background-color: black;
+    background-color: #090A09;
 }
 /* 
 
@@ -15,53 +15,149 @@ body{
 */
 #brand-box{
 
+    width: 500px;
+    height: 500px;
+
+    margin-left: auto; margin-right: auto;
 }
 
-@keyframes brand-ident {
-    
-    from{
 
+#brand-box{
+
+    width: 500px;
+    height: 500px;
+
+    margin-left: auto; margin-right: auto;
+}
+
+.brand-ident{
+    background: url('anims/test/06.svg');
+    animation-name: brand-hover;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    transition-duration: 0.25s;
+
+}
+
+.brand-hover{
+    
+}
+
+.brand-hover2:hover{
+    animation-name: brand-hover2;
+    animation-duration: 0.75s;
+    animation-iteration-count: infinite;
+    transition-duration: 0.25s;
+
+}
+
+.brand-hover:hover{
+    animation-name: brand-hover;
+    animation-duration: 0.75s;
+    animation-iteration-count: infinite;
+    transition-duration: 0.25s;
+
+}
+
+
+@keyframes brand-hover2 {
+    
+    0% {
+        background: url('anims/test/06.svg');
+    }
+
+    5% {
+        background: url('anims/test/03.svg');
     }
 
     10% {
-
-      }
-
+        background: url('anims/test/01.svg');
+    }
+    
     15% {
+        background: url('anims/test/01.svg');
 
     }
 
-    20% {
+    25% {
+        background: url('anims/test/06.svg');
 
     }
 
+    50% {
+        background: url('anims/test/01.svg');
 
-    to{
+    }
 
+    75% {
+        background: url('anims/test/04.svg');
+
+    }
+
+    80% {
+        background: url('anims/test/03.svg');
     }
 }
 
-@keyframes brand-box {
 
-    from{
+@keyframes brand-hover {
+    
 
+    
+    
+    7% {
+        background: url('anims/test/07.svg');
     }
 
-    10% {
-
-      }
-
-    15% {
-
-    }
-
-    20% {
-
-    }
-
-
-    to{
-
+    12% {
+        background: url('anims/test/08.svg');
     }
     
+    18% {
+        background: url('anims/test/09.svg');
+
+    }
+
+    20%{
+        background: url('anims/test/Deformers/02.svg');
+    }
+
+    30% {
+        background: url('anims/test/10.svg');
+
+    }
+
+    35% {
+        background: url('anims/test/01.svg');
+
+    }
+
+    45% {
+        background: url('anims/test/11.svg');
+
+    }
+
+    65% {
+        background: url('anims/test/12.svg');
+
+    }
+
+    70% {
+        background: url('anims/test/Deformers/01.svg');
+    }
+
+    85% {
+        background: url('anims/test/13.svg');
+    }
+
+    90% {
+        background: url('anims/test/14.svg');
+    }
+    100%{
+
+        background: url('anims/test/Deformers/0.svg');
+
+    }
+
+
 }

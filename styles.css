@@ -1,3 +1,67 @@
 * {
 
 }
+
+
+body{
+    background-color: black;
+}
+/* 
+
+    Staging the SVG stage 
+    note; SVG streams are something different, why the tag exisats
+    similar to ifram practices from old times
+    
+*/
+#brand-box{
+
+}
+
+@keyframes brand-ident {
+    
+    from{
+
+    }
+
+    10% {
+
+      }
+
+    15% {
+
+    }
+
+    20% {
+
+    }
+
+
+    to{
+
+    }
+}
+
+@keyframes brand-box {
+
+    from{
+
+    }
+
+    10% {
+
+      }
+
+    15% {
+
+    }
+
+    20% {
+
+    }
+
+
+    to{
+
+    }
+    
+}

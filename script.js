@@ -1,7 +1,7 @@
 /*
     
-    A JavaScript class outside of webstandards conventions
-    looks like a C program
+    C, JavaScript, objects, classes, functions, switches, and computer science
+
 
     Mimicks C object model with functions wrapped within objects
     interfaces are either models of a class, or the wrapper around a class

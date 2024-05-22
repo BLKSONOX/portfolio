@@ -14,9 +14,12 @@ ___ = {
             /* Chain SVGS document mode */
         }
     },
-    generateDocument: {
+    generateGraphicsDocument: {
 
     },
+    generatePageDocument:{
+        
+    }
 }
 
 /* WIP */

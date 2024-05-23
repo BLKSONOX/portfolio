@@ -420,6 +420,8 @@ ____ = {
                 scale can cange before manipulation of the set, load set
                 fixed map, octal, decimal, hexidecimal, changed map
 
+                https://en.wikipedia.org/wiki/Isomorphism
+
                 24x 20x20 4x4 ~~ 200 ~~ 16 ~~ 200+16
                 24x 20x20 4x4 ~~ 200 ~~ 16 ~~ 200+16
                 24x 20x20 4x4 ~~ 200 ~~ 16 ~~ 200+16
@@ -429,6 +431,8 @@ ____ = {
                 natural transformation
 
                 https://en.wikipedia.org/wiki/Natural_transformation
+
+                
 
                 operators can be used as se fit throughout the entirety of the set
                 to create a new base

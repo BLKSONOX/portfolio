@@ -18,7 +18,9 @@ ___ = {
 
     },
     generatePageDocument:{
-        
+        _(article){
+
+        },
     }
 }
 

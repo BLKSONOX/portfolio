@@ -5,7 +5,7 @@ ___ = {
     anim:{
         
         _(_svg,dur, count){
-            /* CSS mode */   
+            /* CSS and SVG chain mode */   
         }
     },
 

@@ -13,14 +13,6 @@ body{
     similar to ifram practices from old times
     
 */
-#brand-box{
-
-    width: 500px;
-    height: 500px;
-
-    margin-left: auto; margin-right: auto;
-}
-
 
 #brand-box{
 
@@ -35,7 +27,8 @@ body{
     animation-name: brand-hover;
     animation-duration: 1s;
     animation-iteration-count: 1;
-    transition-duration: 0.25s;
+    transition: all .2s ease-in-out;
+
 
 }
 
@@ -45,17 +38,17 @@ body{
 
 .brand-hover2:hover{
     animation-name: brand-hover2;
-    animation-duration: 0.75s;
+    animation-duration: 0.8s;
     animation-iteration-count: infinite;
-    transition-duration: 0.25s;
+    transition: all .2s ease-in-out;
 
 }
 
 .brand-hover:hover{
     animation-name: brand-hover;
-    animation-duration: 0.75s;
+    animation-duration: 0.8s;
     animation-iteration-count: infinite;
-    transition-duration: 0.25s;
+    transition: all .2s ease-in-out;
 
 }
 

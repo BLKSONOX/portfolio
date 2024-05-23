@@ -91,6 +91,7 @@ ___.matriceCollections[0] =
     the video stream of it 
     
     cards was more powerfull then what was shown, 3D drawing cards in 3D space, important differential, just vector points
+    how i figured it out as a kid; scientific calculators 3M engines have the same egine
 
 */
  'rect:0.490234:0.221191:500x500',

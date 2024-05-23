@@ -53,7 +53,7 @@ ___.matriceCollections[0] =
     as seen possible to do in pure document mode  
     current delay oun this setup; 700nano seconds at the heaviest during profiling of this 20 SVG files in a flipbook in CSS 500x500 frame lowest 1u during the animation which means there's room for improvement
 
-    direct browaer draw native browaser engine
+    direct browser draw native browser engine
     which means the SVG format also translates into operating system standards
 
     in operating systems the draws are still until moved and follows screen hz ranges when something moves

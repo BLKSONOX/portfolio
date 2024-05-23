@@ -93,6 +93,9 @@ ___.matriceCollections[0] =
     cards was more powerfull then what was shown, 3D drawing cards in 3D space, important differential, just vector points
     how i figured it out as a kid; scientific calculators 3M engines have the same egine
 
+    yes we have the canvas element that does the same things, however understaning and disecting the math and functions behind it
+    makes it possible to do even more and translates beyound just the web
+
 */
  'rect:0.490234:0.221191:500x500',
  'M239.209 268.916C231.805 266.357 225.642 261.14 221.816 254.267L221.021 252.762V296.561L239.209 276.896V268.916Z',

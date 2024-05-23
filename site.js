@@ -65,6 +65,20 @@ ___.matriceCollections[0] =
 
     always back to base draw which is symetrical
 
+    older graphics cards had to, from 2mb to 120mb ram
+    and a ten CPU cells 5-10mhz each 
+
+    often mistaken as the memory modules
+
+    which also was ten of, yep, there was a period during the release two cards was one card, not SLI the cards was supposed to be shiped as two
+    SDK kit of Vooodo 2 shipped with two cards, 3Dfx chip logo design
+
+    why is this important and relevant to this document? understanding graphics and geomtry compression
+
+    https://i.redd.it/yqy0khco95l11.jpg
+
+    
+
 */
  'rect:0.490234:0.221191:500x500',
  'M239.209 268.916C231.805 266.357 225.642 261.14 221.816 254.267L221.021 252.762V296.561L239.209 276.896V268.916Z',

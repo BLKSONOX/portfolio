@@ -442,6 +442,8 @@ ____ = {
 
                 864
 
+                "The group of fifth roots of unity under multiplication is isomorphic to the group of rotations of the regular pentagon under composition."
+
                 correct way of using Exponents, parting up the number base to multiply in a set
                 differential equation is just substraction of
 

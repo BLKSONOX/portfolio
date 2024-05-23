@@ -79,7 +79,7 @@ ___.matriceCollections[0] =
 
     https://en.wikipedia.org/wiki/3dfx
 
-    yep, one module card one main card, original SDK 10 10 
+    one module card one main card, original SDK 10 10 
 
     
 

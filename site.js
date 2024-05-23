@@ -86,9 +86,9 @@ ___.matriceCollections[0] =
     the chips were draw engines, not streaming engines
 
     all maps were just regular bitmap draws, which means:
-    CPU could handle the bitmap draws while the 3D cards did the geometric draws and at the same time handle
+    CPU could handle the bitmap draws while the 3D cards did the geometric draws and the CPU at the same time handle the video stream of it
 
-    the video stream of it 
+    why intel 386 CPU had special M video capabilities of perfectly streaming with additional tasks running video and sound
     
     cards was more powerfull then what was shown, 3D drawing cards in 3D space, important differential, just vector points
     how i figured it out as a kid; scientific calculators 3M engines have the same egine

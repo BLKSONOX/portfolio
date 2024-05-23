@@ -440,7 +440,11 @@ ____ = {
                 200 x 4 ~~ 80+0
                 16 x 4 ~~ 24+40
 
+
+
                 864
+
+                864/5 = 172.8
 
                 "The group of fifth roots of unity under multiplication is isomorphic to the group of rotations of the regular pentagon under composition."
 

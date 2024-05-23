@@ -1,6 +1,7 @@
 ___ = {
 
     matriceCollections: [],
+    articles: [],
     
     anim:{
         
@@ -23,6 +24,8 @@ ___ = {
         },
     }
 }
+
+
 
 /* WIP */
 /* animations stage layers */
@@ -107,4 +110,4 @@ ___.matriceCollections[0] =
 ];
 
 
-/* recording animation translate matrice behavior into a hex dump sequence possible with SVG and CSS behaviour, CSS mostly static with class changes */
+/* recording animation translate matrice behavior into a hex dump sequence possible with SVG and CSS behaviour, CSS mostly static with class changes SVG contains its own hex pointers */

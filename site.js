@@ -54,8 +54,6 @@ ___.matriceCollections[0] =
     direct browaer draw native browaser engine
     which means the SVG format also translates into operating system standards
 
-    which means tools like figma and penpot have too much overhead
-
 */
  'rect:0.490234:0.221191:500x500',
  'M239.209 268.916C231.805 266.357 225.642 261.14 221.816 254.267L221.021 252.762V296.561L239.209 276.896V268.916Z',

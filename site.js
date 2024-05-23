@@ -85,6 +85,11 @@ ___.matriceCollections[0] =
     buffer draws then read from disk was how it was supposed to be, channeled as live video feeds instead
     the chips were draw engines, not streaming engines
 
+    all maps were just regular bitmap draws, which means:
+    CPU could handle the bitmap draws while the 3D cards did the geometric draws and at the same time handle
+
+    the video stream of it, it was more powerfull then what was shown
+
     
 
 */

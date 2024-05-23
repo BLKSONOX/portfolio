@@ -50,7 +50,7 @@ ___.matriceCollections[0] =
  /* 
     back plate can be direct video feed formed by rectangles the browser draws them anyways which means
     latency would be at an all time low it's mostly cordinates write out of the compression algorithms
-    as seen possible to do in pure document mode
+    as seen possible to do in pure document mode  
     current delay oun this setup; 700nano seconds at the heaviest during profiling of this 20 SVG files in a flipbook in CSS 500x500 frame lowest 1u during the animation which means there's room for improvement
 
     direct browaer draw native browaser engine
@@ -88,9 +88,9 @@ ___.matriceCollections[0] =
     all maps were just regular bitmap draws, which means:
     CPU could handle the bitmap draws while the 3D cards did the geometric draws and at the same time handle
 
-    the video stream of it, it was more powerfull then what was shown
-
+    the video stream of it 
     
+    cards was more powerfull then what was shown, 3D drawing cards in 3D space, important differential, just vector points
 
 */
  'rect:0.490234:0.221191:500x500',

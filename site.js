@@ -79,7 +79,11 @@ ___.matriceCollections[0] =
 
     https://en.wikipedia.org/wiki/3dfx
 
-    one module card one main card, original SDK 10 10 
+    one module card one main card, original SDK 10 10
+    the secret to these cards? where everyoen did it wrong all the way up until now?
+
+    buffer draws then read from disk was how it was supposed to be, channeled as live video feeds instead
+    the chips were draw engines, not streaming engines
 
     
 

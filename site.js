@@ -59,6 +59,8 @@ ___ = {
             form = document.createElement(format);
 
             if(anchor.indexOf("#/") == 0){ 
+                str = anchor.split('/');
+                console.log(str.length)
                 self.___.uris.push(anchor)
                 /* insert anchor into  HTML element */
             }
@@ -90,6 +92,8 @@ ___ = {
         }
     }
 }
+
+___.controller._();
 
 /* WIP */
 /* animations stage layers */

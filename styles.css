@@ -1,63 +1,54 @@
-* {
+/*
+    Globals
+*/
+* { margin: 0px; padding: 0px;}
+body{ background-color: #090A09; }
 
-}
-
-
-body{
-    background-color: #090A09;
-}
-
+/* 
+    Global Typography 
+*/
 a, p, h1, h2, h3, h4, h5, h6{  font-family: "Inter", sans-serif; }
 h1, h2{ color: #FFFFFF;}
 a, p, h3, h4, h5, h6{ color: #8B949E;}
 
-@keyframes FadeInAnim {
-    0%{
-        opacity: 0;
-        
-    }
-    100%{
-        opacity: 100%;
-    }
-}
+/* 
+    onload animations 
+*/
 
-@keyframes down {
-    0%{
-        margin-top: -100px;
-    }
-    100%{
-        margin-top: 0px;
-    }
-}
+@keyframes FadeInAnim { 0%{ opacity: 0; } 100%{ opacity: 100%;} }
+@keyframes down { 0%{ margin-top: -100px; } 100%{ margin-top: 0px; } }
 
-main#desc{
-    
-    animation: down 1s;
-    animation-iteration-count: 1;
-}
+/* 
+    Description containers and values
+*/
 
+main#desc{ animation: down 1s; animation-iteration-count: 1;}
 main#desc h1 .material-symbols-outlined{ margin-left: 45%;}
-
-main#desc h1, h3{
-    animation: FadeInAnim ease 2s;
-    animation-iteration-count: 1;
-}
-
-main#desc h3{
-    padding-bottom: 60px;
-}
-
+main#desc h1, h3{ animation: FadeInAnim ease 2s; animation-iteration-count: 1;}
+main#desc h3{ padding-bottom: 60px;}
 main#desc{ width: 700px; margin-left: auto; margin-right: auto;}
 
-main#sample-illustrations{
-    animation: FadeInAnim ease 3s;
-    animation-iteration-count: 1;
-}
+/* 
+    Illustrations containers and values 
+*/
 
+main#sample-illustrations{ animation: FadeInAnim ease 3s; animation-iteration-count: 1;}
 main#sample-illustrations{ padding-bottom: 20px;}
-
 main#sample-illustrations article{ padding-bottom: 20px;}
 main#sample-illustrations article img{ width: 100%;}
+
+
+
+/*
+    
+    ------------------IMPORTANT NOTE AND COMMENT------------------
+    
+    seems like there's more resource cost in animating content then animating SVG flipbooks
+    content animations are more buggy then
+    
+    ------------------IMPORTANT NOTE AND COMMENT------------------
+
+*/
 
 
 
@@ -70,42 +61,18 @@ main#sample-illustrations article img{ width: 100%;}
     
 */
 
-#brand-box, a#a-box{
-
-    width: 500px;
-    height: 500px;
-    margin-left: auto; margin-right: auto;
-    overflow: hidden;
-}
-
-.brand-ident{
-    background: url('anims/test/06.svg');
-    animation-name: brand-hover;
-    animation-duration: 1s;
-    animation-iteration-count: 1;
-    transition: all .2s ease-in-out;
+#brand-box, a#a-box{ width: 500px; height: 500px; margin-left: auto; margin-right: auto; overflow: hidden; }
+.brand-ident{ background: url('anims/test/06.svg'); animation-name: brand-hover; animation-duration: 1s; animation-iteration-count: 1; transition: all .2s ease-in-out;}
+.brand-hover2:hover{ animation-name: brand-hover2; animation-duration: 0.8s; animation-iteration-count: infinite; transition: all .2s ease-in-out; }
+.brand-hover:hover{ animation-name: brand-hover; animation-duration: 0.8s; animation-iteration-count: infinite; transition: all .2s ease-in-out;}
 
 
-}
+/* 
+    
+    SVG Flipbook animation of brand
+    unfolded sematics kept for redability and editability of its complexity
 
-
-.brand-hover2:hover{
-    animation-name: brand-hover2;
-    animation-duration: 0.8s;
-    animation-iteration-count: infinite;
-    transition: all .2s ease-in-out;
-
-}
-
-.brand-hover:hover{
-    animation-name: brand-hover;
-    animation-duration: 0.8s;
-    animation-iteration-count: infinite;
-    transition: all .2s ease-in-out;
-
-}
-
-
+*/
 @keyframes brand-hover2 {
     
     0% {

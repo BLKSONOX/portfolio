@@ -16,3 +16,16 @@ there's more complex variations of with partitioning, adding, substracting or bi
 https://en.wikipedia.org/wiki/Composition_(combinatorics)#/media/File:Binary_and_compositions_4.svg
 
 it's as simple as, an elementary school student would understand how to put it together 
+
+interpeter either string serialization which is pretty much straight forward
+or byte serialization towards ASCII mapped characters
+
+the sum of that with numbers is a hexidecimal
+
+123456789ABCDEFG
+----------------
+12345678910111213141516
+
+number rows pointer to the matrice, usually converted into multiplication tables crossed
+
+that simple, the rest of the math or proofing is within the exponent range of the octal to find number bases, ratios etc

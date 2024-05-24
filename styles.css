@@ -32,7 +32,7 @@ main#desc{ width: 700px; margin-left: auto; margin-right: auto;}
 main#sample-illustrations{ animation: FadeInAnim ease 3s; animation-iteration-count: 1;}
 main#sample-illustrations{ padding-bottom: 20px;}
 main#sample-illustrations article{ padding-bottom: 20px;}
-main#sample-illustrations article img{ width: 100%; border-radius: 700px; }
+main#sample-illustrations article img{ width: 100%; /* border-radius: 700px; for later use TV waiting screen ideas */ }
 
 
 

@@ -58,31 +58,138 @@ ___ = {
 
             form = document.createElement(format);
 
+            
+            /*
+
+            
+                !------------- DOCUMENT AND URI FORMATING EQUVILENT TO FILESYSTEM PARTITION TABLES -------------! 
+
+               
+                /partion 
+                /partion1
+                /partion2
+                /partion3
+
+                instead of Y space it's stacked in X space
+
+                /partion/partion1/partion2/partion3
+
+                HTML follows filesystem partitioning conventions in Y space inside of Y there's Z
+
+                webstandards X cordinates points to Y cordinates that points to Z cortinates
+                modern browsers are sandboxed which means they're running their own VM's for each tab
+
+                one can extrapolate that the hash graph from the content is used within the browsers VMs
+                all browsers are bundeled, their opensource versions are sepperate of then merged later into the bundles
+
+
+                !------------- DOCUMENT AND URI FORMATING EQUVILENT TO FILESYSTEM PARTITION TABLES -------------! 
+
+
+            */
+
+
+            /* 
+                if anchor is of the right string type start URI partitioning
+            */
+
             if(anchor.indexOf("#/") == 0){ 
-                str = anchor.split('/');
-                console.log(str.length)
-                self.___.uris.push(anchor)
+                str = anchor.split('#/');
+                str = str[1].split('/');
+
+                
+                //self.___.uris.push(str);
+                /*
+                  
+                    serialization into bind tree, spesify with array notation [] as options in input
+                    serialize as : in bindtree array with event spesifications
+                
+                */
+
+
+                /* 
+                    root
+                    if type of next to is not empty 
+                */
+                if(typeof(str[1]) !== undefined){
+                    console.log(str[0]);
+                    
+                    /* 
+                        sub
+                        if string in bind tree is equal too input string
+                    */
+                    if(str[0] == self.___.uris[0]){
+                        console.log(str[1]);
+                       // console.log(self.___.uris);
+                    }
+                }
+               
                 /* insert anchor into  HTML element */
             }
         
         }
     },
+
+    /*
+        The router in this case just reads from the serialized array bind tree and execs the route events
+    */
     router:{
         /* extend router later */
         _(){
             /* Route loop list */
-            for( i=0; i < self.___.uris.length; i++){
-                /* events */
+
+            url = new URL(location);
+
+            /* 
+                on address events, click events different but not differents 
+                https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/click
+
+                URL and click two different events
+                which means you can have two maps for one event
+
+                which the history function addresses
+                useful for variation in properties of click properties and url properties delinated
+
+
+
+            */
+            if (url.hash == "#/page"){
+                alert("hello!");
             }
+
+            console.log(url.hash)
+
+            for( i=0; i < self.___.uris.length; i++){
+                /*
+   
+                    Example from MMDN
+
+                    const url = new URL(location);
+                    url.searchParams.set("foo", "bar");
+                    history.pushState({}, "", url);
+                
+                    https://developer.mozilla.org/en-US/docs/Web/API/History/pushState
+
+                */
+            }
+
+            
         }
     },
 
     controller: {
         /* extend controller later  */
         _(){
-            /* page setup */
-            /* type =  null, depth = null, format = null, anchor = null */
+            /*  
+                page setup 
+                type =  null, depth = null, format = null, anchor = null
+
+                anchor options specified []
+                [serializeddata:somemoreserilizeddata]
+            
+            */
             ___.generatePageDocument._(null, null, "blob", "#/page");
+            ___.generatePageDocument._(null, null, "blob", "#/page/innerPage");
 
             /* modal box setup */
             /* ___.generatePageDocument._(null, null, "blob", "#/page/modal/<boxType>"); */

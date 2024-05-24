@@ -35,7 +35,6 @@ ___ = {
         _(type =  null, depth = null, format = null, anchor = null){
 
             /* 
-                404 found
                 null html document element useful for? hexdumps, hexstorage, reads and writes
                 also if you want to create your own database structure on server side
 

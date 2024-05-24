@@ -72,7 +72,7 @@ ___ = {
         _(){
             /* Route loop list */
             for( i=0; i < self.___.uris.length; i++){
-
+                /* events */
             }
         }
     },

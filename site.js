@@ -1,7 +1,18 @@
+/* 
+    
+    Private semi useful framework for private sites
+    
+    Project title: ____
+
+    Author Bendikt Martin Myklebust
+
+*/
+
 ___ = {
 
     matriceCollections: [],
-    articles: [],
+    articles:           [],
+    uris:               [],
     
     anim:{
         
@@ -10,6 +21,7 @@ ___ = {
         }
     },
 
+    /* Chain matrice also known as a scene */
     chainMatrice: {
         _(collection){
             /* Chain SVGS document mode */
@@ -18,14 +30,67 @@ ___ = {
     generateGraphicsDocument: {
 
     },
+    /* view */
     generatePageDocument:{
-        _(article){
+        _(type =  null, depth = null, format = null, anchor = null){
 
-        },
+            /* 
+                404 found
+                null html document element useful for? hexdumps, hexstorage, reads and writes
+                also if you want to create your own database structure on server side
+
+                <data title="dataset">
+                    <null>
+                    </null>
+                </data>
+
+                null object is browser reset
+                rest of the HTML tags carries additional data and javascript objects tied to them
+                no documentation of the HTML tag exists, yet it's a legal tag within the standards
+
+                allows for database creation manuall by hand through serverside 
+                in regular pages it would be like this
+
+                <article title="title" href="#uri">
+                <article/>
+
+            */
+            if(format == "blob"){ format = null; }
+
+            form = document.createElement(format);
+
+            if(anchor.indexOf("#/") == 0){ 
+                self.___.uris.push(anchor)
+                /* insert anchor into  HTML element */
+            }
+        
+        }
+    },
+    router:{
+        /* extend router later */
+        _(){
+            /* Route loop list */
+            for( i=0; i < self.___.uris.length; i++){
+
+            }
+        }
+    },
+
+    controller: {
+        /* extend controller later  */
+        _(){
+            /* page setup */
+            /* type =  null, depth = null, format = null, anchor = null */
+            ___.generatePageDocument._(null, null, "blob", "#/page");
+
+            /* modal box setup */
+            /* ___.generatePageDocument._(null, null, "blob", "#/page/modal/<boxType>"); */
+
+            /* URI router */
+            self.___.router._();
+        }
     }
 }
-
-
 
 /* WIP */
 /* animations stage layers */

@@ -31,6 +31,7 @@ a, p, h3, h4, h5, h6{ color: #8B949E;}
 }
 
 main#desc{
+    
     animation: down 1s;
     animation-iteration-count: 1;
 }

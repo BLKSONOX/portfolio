@@ -29,3 +29,5 @@ the sum of that with numbers is a hexidecimal
 number rows pointer to the matrice, usually converted into multiplication tables crossed
 
 that simple, the rest of the math or proofing is within the exponent range of the octal to find number bases, ratios etc
+
+what does a server need; networkscard, CPU, RAM, keyboard, mouse, and VGA console mode

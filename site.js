@@ -239,6 +239,7 @@ ___ = {
             self.___.url.protocols = []
         
 
+
             /* 
                 Fixed framework URI
                 automate console.log and html rendering, streamlined
@@ -268,7 +269,20 @@ ___ = {
                     
                     raisedMessages = document.querySelector("div");
                     raisedMessages.setAttribute("id","raised");
-                    raisedMessages.appendChild(document.createElement("h1"));
+
+                    raisedMessage = document.createElement("h1");
+
+                    raisedMessages.appendChild(raisedMessage);
+                    raisedMessage.setAttribute("id","debug");
+
+                    
+                    content = document.createTextNode("Debugging.");
+                    raisedMessage.appendChild(content);
+
+                    
+                    
+                    //document.createTextnode("Debuggin.");
+
 
                 }
 
@@ -280,6 +294,15 @@ ___ = {
             }
 
             
+        },
+        onHash: function(){
+            window.onhashchange = function() {
+                /* 
+                    url and location hash 
+                    url linked, location hash direct commands
+                */
+                if(self.___.url.hash !== location.hash)[]
+            };
         }
     },
 

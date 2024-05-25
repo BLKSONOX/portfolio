@@ -133,8 +133,7 @@ ___ = {
                 /* 
                     if type of next to is not empty go bellow, if next levels exists either or is the applicable statements
                 */
-                if(typeof(str[1]) !== undefined || typeof(str[2]) !== undefined || typeof(str[3]) !== undefined){
-                    console.log(str[0]);
+                if(typeof(str[1]) !== undefined || typeof(str[2]) !== undefined || typeof(str[3]) !== undefined){1
                     
                     /* 
                         
@@ -197,12 +196,17 @@ ___ = {
 
                 instead use URL params as a secondary state layer
                 the live address change and enter need to be assigned as a state
-
                 reasoning: going outside of the push and pop states gives flow control over data and events before the events
 
 
             */
-            if (self.___.url.hash == "#/debug"){
+
+            /* 
+                translate events into channel blocks serverside
+                protocolized version on serverside would be
+                something similar in expressed type and partitioning
+            */
+            if (self.___.url.hash == "#/debug" ){
             /* 
                 Fixed framework URI
             */
@@ -223,9 +227,18 @@ ___ = {
              and use route switches, one for media and one for regular database
 
             */
+                
+                console.log("________________________: Client debug");
+
                 self.___.url.protocols = []
                 console.log("____: Protocols Array");
                 console.log(self.___.url.protocols);
+                console.log("____: URL Object");
+                console.log(self.___.url)
+                console.log("____: URI's");
+                console.log(self.___.uris)
+
+                console.log("________________________: Server debug");
                
             }
 

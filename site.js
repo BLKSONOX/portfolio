@@ -118,7 +118,7 @@ ___ = {
                         
                     in the 1st
                         if string in bind tree is equal too input string
-                        URI event listener, close if scope possibly set up switch statement instead
+                        URI event listener, closed if scope possibly set up switch statement instead
 
                     */
                     if(str[0] == self.___.uris[0]){
@@ -195,6 +195,10 @@ ___ = {
 
                 anchor options specified []
                 [serializeddata:somemoreserilizeddata]
+
+                follows js and css data conventions on html document structures
+                example: li[data-active='1']
+
             
             */
             ___.generatePageDocument._(null, null, "blob", "#/page");

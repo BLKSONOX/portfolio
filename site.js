@@ -6,6 +6,12 @@
 
     Author Bendikt Martin Myklebust
 
+    why this class structure?
+    it follows the webstandards own object convention and not tutorial script type convention
+     
+    Structs
+    URL { protocols: [], href: "file:///C:/Users/blkhy/OneDrive/Documents/gitrepos/portfolio/index.html#/debug", origin: "null", protocol: "file:", username: "", password: "", host: "", hostname: "", port: "", pathname: "/C:/Users/blkhy/OneDrive/Documents/gitrepos/portfolio/index.html" }
+
 */
 
 ___ = {

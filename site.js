@@ -144,7 +144,7 @@ ___ = {
 
                     */
                     if(str[0] == self.___.uris[0]){
-                        console.log("____: Document Generator")
+                        console.log("____: Document Generator");
                         console.log(str[1]);
                     }
                 }
@@ -198,7 +198,7 @@ ___ = {
                 instead use URL params as a secondary state layer
                 the live address change and enter need to be assigned as a state
 
-                reasoning: it gives flow control over data and events before the events
+                reasoning: going outside of the push and pop states gives flow control over data and events before the events
 
 
             */

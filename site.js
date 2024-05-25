@@ -34,6 +34,10 @@ ___ = {
     /*  
         Document HTML document, streams and channels, also Database Document stream and channels
         partition database in the same way
+
+        byte read of database content optional
+        create encrypted scheme of that later
+
     */
     generatePageDocument:{
         _(type =  null, depth = null, format = null, anchor = null){

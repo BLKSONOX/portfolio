@@ -12,6 +12,12 @@
     Structs
     URL { protocols: [], href: "", origin: "null", protocol: "file:", username: "", password: "", host: "", hostname: "", port: "", pathname: "" }
 
+    why do we write comments on code?
+    to write less code, and to plan more
+
+    the more everything is mapped out the smaller the code base gets when going into production
+    a huge part of Rock Solid programming style
+
 */
 
 ___ = {

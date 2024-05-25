@@ -153,6 +153,9 @@ ___ = {
                 push and pop states only one dimensional 
 
                 old way of path mapping still the best way to do things
+                why?
+
+                index depth multiple events instead of loose threads there's sorted threads
 
 
 

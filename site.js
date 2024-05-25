@@ -213,7 +213,7 @@ ___ = {
             */
             if (self.___.url.hash == "#/debug"){
             /* 
-                Fixed framework URI, it functions like try, and then throws an exception 
+                Fixed framework URI
             */
 
             /*

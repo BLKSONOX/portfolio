@@ -55,7 +55,7 @@ ___ = {
                 <article/>
 
             */
-            if(format == "blob"){ format = null; }
+            if(format == "data"){ format = null; }
 
             form = document.createElement(format);
 
@@ -173,27 +173,25 @@ ___ = {
 
                 index depth multiple events instead of loose threads there's sorted threads
 
+                Example from MMDN
+
+                const url = new URL(location);
+                url.searchParams.set("foo", "bar");
+                history.pushState({}, "", url);
+            
+                https://developer.mozilla.org/en-US/docs/Web/API/History/pushState
+
 
 
             */
-            if (url.hash == "#/page"){
-                alert("hello!");
+            if (self.___.url.hash == "#/debug"){
+                console.log()
             }
 
             console.log(url.hash)
 
             for( i=0; i < self.___.uris.length; i++){
-                /*
-   
-                    Example from MMDN
 
-                    const url = new URL(location);
-                    url.searchParams.set("foo", "bar");
-                    history.pushState({}, "", url);
-                
-                    https://developer.mozilla.org/en-US/docs/Web/API/History/pushState
-
-                */
             }
 
             
@@ -215,8 +213,8 @@ ___ = {
 
             
             */
-            ___.generatePageDocument._(null, null, "blob", "#/page");
-            ___.generatePageDocument._(null, null, "blob", "#/page/innerPage");
+            ___.generatePageDocument._(null, null, "data", "#/page");
+            ___.generatePageDocument._(null, null, "data", "#/page/innerPage");
 
             /* modal box setup */
             /* ___.generatePageDocument._(null, null, "blob", "#/page/modal/<boxType>"); */

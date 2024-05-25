@@ -115,6 +115,7 @@ ___ = {
 
 
                 // process serialization here
+                // this is also a cool algorithm for something
 
                 if(typeof(str[1]) == undefined && typeof(str[2]) == undefined && typeof(str[3]) == undefined) self.___.uris.push(str);
                 if(typeof(str[1]) == undefined || typeof(str[2]) == undefined || typeof(str[3]) == undefined) self.___.uris.push(str);

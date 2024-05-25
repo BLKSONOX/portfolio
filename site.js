@@ -301,7 +301,7 @@ ___ = {
                     url and location hash 
                     url linked, location hash direct commands
                 */
-                if(self.___.url.hash !== location.hash)[]
+                if(self.___.url.hash !== location.hash){}
             };
         }
     },

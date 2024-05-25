@@ -111,6 +111,10 @@ ___ = {
                     why? sometimes depths are completley empty other times not
 
                 */
+
+
+                // process serialization here
+
                 if(typeof(str[1]) == undefined && typeof(str[2]) == undefined && typeof(str[3]) == undefined) self.___.uris.push(str);
                 if(typeof(str[1]) == undefined || typeof(str[2]) == undefined || typeof(str[3]) == undefined) self.___.uris.push(str);
 

@@ -91,6 +91,7 @@ ___ = {
 
             /* 
                 if anchor is of the right string type start URI partitioning
+                root(also known as exponents)
             */
 
             if(anchor.indexOf("#/") == 0){ 
@@ -108,7 +109,6 @@ ___ = {
 
 
                 /* 
-                    root(also known as exponents)
                     if type of next to is not empty go bellow, if next levels exists either or is the applicable statements
                 */
                 if(typeof(str[1]) !== undefined || typeof(str[2]) !== undefined || typeof(str[3]) !== undefined){

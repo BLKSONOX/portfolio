@@ -108,19 +108,21 @@ ___ = {
 
 
                 /* 
-                    root
-                    if type of next to is not empty 
+                    root(also known as exponents)
+                    if type of next to is not empty go bellow, if next levels exists either or is the applicable statements
                 */
-                if(typeof(str[1]) !== undefined){
+                if(typeof(str[1]) !== undefined || typeof(str[2]) !== undefined || typeof(str[3]) !== undefined){
                     console.log(str[0]);
                     
                     /* 
-                        sub
+                        
+                    in the 1st
                         if string in bind tree is equal too input string
+                        URI event listener, close if scope possibly set up switch statement instead
+
                     */
                     if(str[0] == self.___.uris[0]){
-                        console.log(str[1]);
-                       // console.log(self.___.uris);
+
                     }
                 }
                

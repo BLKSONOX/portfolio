@@ -237,8 +237,7 @@ ___ = {
             */
 
             self.___.url.protocols = []
-        
-
+    
 
             /* 
                 Fixed framework URI
@@ -246,7 +245,6 @@ ___ = {
             */
             
             if (self.___.url.hash == "#/debug"){
-                
                 /* 
                     Console view, mostly useful for inline dev 
                 */
@@ -265,18 +263,39 @@ ___ = {
                 window.onload = function(){ 
                     
                     document.body.innerHTML = ''; 
+
+                    /* div */
+                    document.body.setAttribute("id", "system");
                     document.body.appendChild(document.createElement("div"));
-                    
                     raisedMessages = document.querySelector("div");
                     raisedMessages.setAttribute("id","raised");
 
+                    /* Headline */
                     raisedMessage = document.createElement("h1");
-
                     raisedMessages.appendChild(raisedMessage);
                     raisedMessage.setAttribute("id","debug");
-
-                    
                     content = document.createTextNode("Debugging.");
+                    raisedMessage.appendChild(content);
+
+                    /* Headline */
+                    raisedMessage = document.createElement("h3");
+                    raisedMessages.appendChild(raisedMessage);
+                    raisedMessage.setAttribute("class","debug");
+                    content = document.createTextNode("Client Debug.");
+                    raisedMessage.appendChild(content);
+
+                    /* Message */
+                    raisedMessage = document.createElement("h4");
+                    raisedMessages.appendChild(raisedMessage);
+                    raisedMessage.setAttribute("class","debug");
+                    content = document.createTextNode(" Protocols Array.");
+                    raisedMessage.appendChild(content);
+
+                    /* Headline */
+                    raisedMessage = document.createElement("h3");
+                    raisedMessages.appendChild(raisedMessage);
+                    raisedMessage.setAttribute("class","debug");
+                    content = document.createTextNode("Server Debug.");
                     raisedMessage.appendChild(content);
 
                     
@@ -296,13 +315,14 @@ ___ = {
             
         },
         onHash: function(){
+
             window.onhashchange = function() {
-                /* 
-                    url and location hash 
-                    url linked, location hash direct commands
-                */
-                if(self.___.url.hash !== location.hash){}
+                 /* Event, add event listeners */
             };
+
+            window.onclick = function(){
+                /* Event, add event listeners */
+            }
         }
     },
 

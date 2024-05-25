@@ -3,6 +3,7 @@
 */
 * { margin: 0px; padding: 0px;}
 body{ background-color: #090A09; }
+body#system{ background: #FF9898;}
 
 /* 
     Global Typography 
@@ -11,18 +12,31 @@ a, p, h1, h2, h3, h4, h5, h6{  font-family: "Inter", sans-serif; }
 h1, h2{ color: #FFFFFF;}
 a, p, h3, h4, h5, h6{ color: #8B949E;}
 
+
+/*
+    System debugger, possibly also navigation and menu style
+*/
+#raised > h4.debug{animation: FadeInAnim ease 2s; animation-iteration-count: 1;}
+h1#debug, h3.debug, h4.debug{ padding: 40px 40px 0px; color: #FFD4D4; animation: FadeInAnim ease 2s; animation-iteration-count: 1;}
+h3.debug::before, h4.debug{animation: textProgressAnimation ease 250ms; animation-iteration-count: 1; animation-delay: 250ms;  content:"________________________:";}
+h4.debug::before{animation: textProgressAnimation2 ease 250ms; animation-iteration-count: 1; animation-delay: 250ms;  content: "__________:";}
+h1#debug::before{animation: textProgressAnimation ease 250ms; content:"________________________:";}
+
 /* 
     onload animations 
 */
 @keyframes FadeInAnim { 0%{ opacity: 0; } 100%{ opacity: 100%;} }
 @keyframes down { 0%{ margin-top: -100px; } 100%{ margin-top: 0px; } }
 
+@keyframes textProgressAnimation{ 0%{ content: "";} 10%{ content: ":";} 20%{ content: "_:"; } 30%{ content: "___:"; } 40%{ content: "_______:"; } 50%{ content: "_________:"; } 60%{ content: "____________:"; } 70%{ content: "________________:"; } 80%{  content: "___________________:"; } 90%{ content: "______________________:"; } 100%{ content: "________________________:"; }}
+@keyframes textProgressAnimation2{ 0%{ content: ""; } 10%{ content: ":";} 20%{ content: "_:"; } 30%{ content: "___:";  } 40%{ content: "____:";  } 50%{ content: "_____:";  } 60%{ content: "______:";  } 70%{ content: "_______:";  } 80%{ content: "________:";} 90%{ content: "_________:";} 100%{ content: "__________:";} }
+
 /* 
     Description containers and values
 */
 main#desc{ animation: down 1s; animation-iteration-count: 1;}
 main#desc h1 .material-symbols-outlined{ margin-left: 45%;}
-main#desc h1, h3{ animation: FadeInAnim ease 2s; animation-iteration-count: 1;}
+main#desc > h1, main#desc > h3, main#desc > h4{ animation: FadeInAnim ease 2s; animation-iteration-count: 1;}
 main#desc h3{ padding: 20px 0  100px 0;}
 main#desc{ width: 700px; margin-left: auto; margin-right: auto;}
 
@@ -66,107 +80,7 @@ main#sample-illustrations article img{ width: 100%; /* border-radius: 700px; for
 /* 
     
     SVG Flipbook animation of brand
-    unfolded semantics kept for redability and editability of its complexity
 
 */
-@keyframes brand-hover2 {
-    
-    0% {
-        background: url('anims/test/06.svg');
-    }
-
-    5% {
-        background: url('anims/test/03.svg');
-    }
-
-    10% {
-        background: url('anims/test/01.svg');
-    }
-    
-    15% {
-        background: url('anims/test/01.svg');
-
-    }
-
-    25% {
-        background: url('anims/test/06.svg');
-
-    }
-
-    50% {
-        background: url('anims/test/01.svg');
-
-    }
-
-    75% {
-        background: url('anims/test/04.svg');
-
-    }
-
-    80% {
-        background: url('anims/test/03.svg');
-    }
-}
-
-
-@keyframes brand-hover {
-    
-
-    
-    
-    7% {
-        background: url('anims/test/07.svg');
-    }
-
-    12% {
-        background: url('anims/test/08.svg');
-    }
-    
-    18% {
-        background: url('anims/test/09.svg');
-
-    }
-
-    20%{
-        background: url('anims/test/Deformers/02.svg');
-    }
-
-    30% {
-        background: url('anims/test/10.svg');
-
-    }
-
-    35% {
-        background: url('anims/test/01.svg');
-
-    }
-
-    45% {
-        background: url('anims/test/11.svg');
-
-    }
-
-    65% {
-        background: url('anims/test/12.svg');
-
-    }
-
-    70% {
-        background: url('anims/test/Deformers/01.svg');
-    }
-
-    85% {
-        background: url('anims/test/13.svg');
-    }
-
-    90% {
-        background: url('anims/test/14.svg');
-    }
-    100%{
-
-        background: url('anims/test/Deformers/0.svg');
-
-    }
-
-
-}
+@keyframes brand-hover2 { 0% { background: url('anims/test/06.svg');} 5% { background: url('anims/test/03.svg');} 10% { background: url('anims/test/01.svg'); } 15% { background: url('anims/test/01.svg');} 25% { background: url('anims/test/06.svg');} 50% { background: url('anims/test/01.svg'); } 75% { background: url('anims/test/04.svg'); } 80% { background: url('anims/test/03.svg'); }}
+@keyframes brand-hover { 7% { background: url('anims/test/07.svg'); } 12% { background: url('anims/test/08.svg'); } 18% { background: url('anims/test/09.svg');} 20%{ background: url('anims/test/Deformers/02.svg');} 30% {background: url('anims/test/10.svg');} 35% { background: url('anims/test/01.svg'); } 45% { background: url('anims/test/11.svg'); } 65% { background: url('anims/test/12.svg'); } 70% { background: url('anims/test/Deformers/01.svg'); } 85% { background: url('anims/test/13.svg'); } 90% { background: url('anims/test/14.svg'); } 100%{ background: url('anims/test/Deformers/0.svg');}}

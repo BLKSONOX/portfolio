@@ -229,15 +229,16 @@ ___ = {
              and use route switches, one for media and one for regular database
 
             */
+
+            self.___.url.protocols = []
         
 
-            
-            if (self.___.url.hash == "#/debug"){
             /* 
                 Fixed framework URI
+                automate console.log and html rendering, streamlined
             */
-
-                self.___.url.protocols = []
+            
+            if (self.___.url.hash == "#/debug"){
                 
                 /* 
                     Console view, mostly useful for inline dev 

@@ -144,7 +144,7 @@ ___ = {
 
                     */
                     if(str[0] == self.___.uris[0]){
-                        console.log(str[0]);
+                        console.log(str[1]);
                     }
                 }
                
@@ -212,9 +212,28 @@ ___ = {
 
             */
             if (self.___.url.hash == "#/debug"){
-                /* 
-                    Fixed framework URI 
-                */
+            /* 
+                Fixed framework URI, it functions like try, and then throws an exception 
+            */
+
+            /*
+             
+             extend router later
+             
+             with protocol capabilities
+             useful for media bit streams or and pure database bit streams
+
+
+             https://developer.mozilla.org/en-US/docs/Web/API/URL/protocol
+             https://developer.mozilla.org/en-US/docs/Web/API/URL/port
+        
+             test:
+             add additional stack of arrays extending the url class
+             and use route switches, one for media and one for regular database
+
+            */
+                self.___.url.protocols = []
+                console.log(self.___.url.protocols);
                
             }
 

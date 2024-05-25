@@ -31,7 +31,10 @@ ___ = {
     generateGraphicsDocument: {
 
     },
-    /* view */
+    /*  
+        Document HTML document, streams and channels, also Database Document stream and channels
+        partition database in the same way
+    */
     generatePageDocument:{
         _(type =  null, depth = null, format = null, anchor = null){
 
@@ -133,7 +136,7 @@ ___ = {
                         
                         in the 1st
                         if string in bind tree is equal too input string
-                        URI event listener, closed if scope possibly set up switch statement instead
+                        URI event listener, closed if scope, possibly set up switch statement instead
 
                     */
                     if(str[0] == self.___.uris[0]){
@@ -151,11 +154,28 @@ ___ = {
         The router in this case just reads from the serialized array bind tree and execs the route events
     */
     router:{
-        /* extend router later */
-        _(){
 
             
+        _(){
+            
+            /*
+             
+             extend router later
+             
+             with protocol capabilities
+             useful for media bit streams or and pure database bit streams
 
+
+             https://developer.mozilla.org/en-US/docs/Web/API/URL/protocol
+             https://developer.mozilla.org/en-US/docs/Web/API/URL/port
+        
+             test:
+             add additional stack of arrays extending the url class
+             and use route switches, one for media and one for regular database
+
+            */
+                self.___.url.protocols = []
+                console.log(self.___.url.protocols);
             /* 
 
                 Example from MMDN
@@ -188,8 +208,10 @@ ___ = {
 
             */
             if (self.___.url.hash == "#/debug"){
-                /* Fixed framework URI */
-                console.log("debug")
+                /* 
+                    Fixed framework URI 
+                */
+               
             }
 
             for( i=0; i < self.___.uris.length; i++){

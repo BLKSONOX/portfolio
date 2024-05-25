@@ -1,6 +1,6 @@
 What does a programming language need:
 
-Objects, arrays, math operators, if else, switch, string operation to objects or arrays
+Objects, arrays, math operators, if else, switch, functions, string operation to objects or arrays, loops
 string operations, and type definition, the rest is just read or write various byte code matrixes
 
 Three modes

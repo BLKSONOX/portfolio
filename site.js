@@ -99,13 +99,20 @@ ___ = {
                 str = str[1].split('/');
 
                 
-                //self.___.uris.push(str);
                 /*
                   
                     serialization into bind tree, spesify with array notation [] as options in input
                     serialize as : in bindtree array with event spesifications
-                
+
+                    singular serialization of page or document if not depth map defined
+                    if all depths undefined run initialization of URI string
+                    if either or run initialization of URI string
+
+                    why? sometimes depths are completley empty other times not
+
                 */
+                if(typeof(str[1]) == undefined && typeof(str[2]) == undefined && typeof(str[3]) == undefined) self.___.uris.push(str);
+                if(typeof(str[1]) == undefined || typeof(str[2]) == undefined || typeof(str[3]) == undefined) self.___.uris.push(str);
 
 
                 /* 
@@ -116,13 +123,13 @@ ___ = {
                     
                     /* 
                         
-                    in the 1st
+                        in the 1st
                         if string in bind tree is equal too input string
                         URI event listener, closed if scope possibly set up switch statement instead
 
                     */
                     if(str[0] == self.___.uris[0]){
-
+                        console.log(str[0]);
                     }
                 }
                

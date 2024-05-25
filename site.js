@@ -13,6 +13,7 @@ ___ = {
     matriceCollections: [],
     articles:           [],
     uris:               [],
+    url: new URL(location),
     
     anim:{
         
@@ -149,11 +150,13 @@ ___ = {
     router:{
         /* extend router later */
         _(){
-            /* Route loop list */
 
-            url = new URL(location);
+            
 
             /* 
+
+                url = new URL(location);
+
                 on address events, click events different but not differents 
                 https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/click
 

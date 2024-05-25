@@ -144,6 +144,7 @@ ___ = {
 
                     */
                     if(str[0] == self.___.uris[0]){
+                        console.log("____: Document Generator")
                         console.log(str[1]);
                     }
                 }
@@ -162,24 +163,6 @@ ___ = {
             
         _(){
             
-            /*
-             
-             extend router later
-             
-             with protocol capabilities
-             useful for media bit streams or and pure database bit streams
-
-
-             https://developer.mozilla.org/en-US/docs/Web/API/URL/protocol
-             https://developer.mozilla.org/en-US/docs/Web/API/URL/port
-        
-             test:
-             add additional stack of arrays extending the url class
-             and use route switches, one for media and one for regular database
-
-            */
-                self.___.url.protocols = []
-                console.log(self.___.url.protocols);
             /* 
 
                 Example from MMDN
@@ -209,6 +192,14 @@ ___ = {
 
                 index depth multiple events instead of loose threads there's sorted threads
 
+                url.searchParams.set("foo", "bar");
+                history.pushState({}, "", url);
+
+                instead use URL params as a secondary state layer
+                the live address change and enter need to be assigned as a state
+
+                reasoning: it gives flow control over data and events before the events
+
 
             */
             if (self.___.url.hash == "#/debug"){
@@ -233,6 +224,7 @@ ___ = {
 
             */
                 self.___.url.protocols = []
+                console.log("____: Protocols Array");
                 console.log(self.___.url.protocols);
                
             }

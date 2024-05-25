@@ -83,6 +83,8 @@ ___ = {
                 one can extrapolate that the hash graph from the content is used within the browsers VMs
                 all browsers are bundeled, their opensource versions are sepperate of then merged later into the bundles
 
+                shard own bitstream of data, long time private project create database simple one
+
 
                 !------------- DOCUMENT AND URI FORMATING EQUVILENT TO FILESYSTEM PARTITION TABLES -------------! 
 
@@ -156,6 +158,15 @@ ___ = {
 
             /* 
 
+                Example from MMDN
+
+                const url = new URL(location);
+                url.searchParams.set("foo", "bar");
+                history.pushState({}, "", url);
+            
+                https://developer.mozilla.org/en-US/docs/Web/API/History/pushState
+
+
                 url = new URL(location);
 
                 on address events, click events different but not differents 
@@ -174,22 +185,12 @@ ___ = {
 
                 index depth multiple events instead of loose threads there's sorted threads
 
-                Example from MMDN
-
-                const url = new URL(location);
-                url.searchParams.set("foo", "bar");
-                history.pushState({}, "", url);
-            
-                https://developer.mozilla.org/en-US/docs/Web/API/History/pushState
-
-
 
             */
             if (self.___.url.hash == "#/debug"){
-                console.log()
+                /* Fixed framework URI */
+                console.log("debug")
             }
-
-            console.log(url.hash)
 
             for( i=0; i < self.___.uris.length; i++){
 

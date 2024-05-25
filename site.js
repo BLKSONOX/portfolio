@@ -212,10 +212,6 @@ ___ = {
                 protocolized version on serverside would be
                 something similar in expressed type and partitioning
             */
-            if (self.___.url.hash == "#/debug" ){
-            /* 
-                Fixed framework URI
-            */
 
             /*
              
@@ -233,18 +229,42 @@ ___ = {
              and use route switches, one for media and one for regular database
 
             */
-                
-                console.log("________________________: Client debug");
+        
+
+            
+            if (self.___.url.hash == "#/debug"){
+            /* 
+                Fixed framework URI
+            */
 
                 self.___.url.protocols = []
+                
+                /* 
+                    Console view, mostly useful for inline dev 
+                */
+                console.log("________________________: Client debug");
                 console.log("____: Protocols Array");
                 console.log(self.___.url.protocols);
                 console.log("____: URL Object");
                 console.log(self.___.url)
                 console.log("____: URI's");
                 console.log(self.___.uris)
-
                 console.log("________________________: Server debug");
+
+                /* 
+                    HTML view, useful for PDF creation of to document objects for team discussions 
+                */
+                window.onload = function(){ 
+                    
+                    document.body.innerHTML = ''; 
+                    document.body.appendChild(document.createElement("div"));
+                    
+                    raisedMessages = document.querySelector("div");
+                    raisedMessages.setAttribute("id","raised");
+                    raisedMessages.appendChild(document.createElement("h1"));
+
+                }
+
                
             }
 

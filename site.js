@@ -150,6 +150,10 @@ ___ = {
                 which the history function addresses
                 useful for variation in properties of click properties and url properties delinated
 
+                push and pop states only one dimensional 
+
+                old way of path mapping still the best way to do things
+
 
 
             */

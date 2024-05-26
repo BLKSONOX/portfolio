@@ -304,40 +304,40 @@ ___ = {
                     content = document.createTextNode("Server Debug.");
                     raisedMessage.appendChild(content);
 
-                
 
-                    /*
-                        Threads
-                    */
 
-                    ThreadRoot  = Math.floor(Date.now() / 1000);
-                    Thread      = ThreadRoot.toString();
-                    Threads     = [Thread.substring(9), Thread.substring(8), Thread.substring(7)];
 
-                    for(i = 0; i < 10; i++){
-                        for(x =0; x < 10; x++){
-                            for(y=0; y < 10; y++){
+                },
 
-                                // do if validation and equation of if larger then if not larger then
-                                
-                                // in threading the whole application exists within the thread loops
-                                // the reason why JavaScript has call back functions, time interpolation inside of the loop
+                /*
+                    Threads
+                    this is how threads behind the software that's behind the software looks like
+                    mostly written in either binary, octal or in alot of cases hexidecimals
 
-                                // fullly possible within JavaScript, in order for it to work it has to be not broken 
-                                // easier said then done function calls breaks loops in javascript
+                */
+                ThreadRoot  = Math.floor(Date.now() / 1000);
+                Thread      = ThreadRoot.toString();
+                Threads     = [Thread.substring(9), Thread.substring(8), Thread.substring(7)];
 
-                                // which is why the bind function exists, to not loose the scope
+                for(i = 0; i < 10; i++){
+                    for(x =0; x < 10; x++){
+                        for(y=0; y < 10; y++){
 
-                                // why the struct structure of this class is set up the way it is, it's the same as C
-                                // why the clock is the most important thing inside a computer
+                            // do if validation and equation of if larger then if not larger then
+                            
+                            // in threading the whole application exists within the thread loops
+                            // the reason why JavaScript has call back functions, time interpolation inside of the loop
 
-                            } 
-                        }
+                            // fullly possible within JavaScript, in order for it to work it has to be not broken 
+                            // easier said then done function calls breaks loops in javascript
+
+                            // which is why the bind function exists, to not loose the scope
+
+                            // why the struct structure of this class is set up the way it is, it's the same as C
+                            // why the clock is the most important thing inside a computer
+
+                        } 
                     }
-
-
-
-
                 }
 
                

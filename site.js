@@ -55,6 +55,9 @@ ___ = {
 
         _(){
 
+            /* 
+                UNIX time as thread root, time formats are still octals
+            */
             ThreadRoot  = Math.floor(Date.now() / 1000);
             Thread      = ThreadRoot.toString();
             Threads     = [Thread.substring(9), Thread.substring(8), Thread.substring(7)];

@@ -3,7 +3,7 @@
 */
 * { margin: 0px; padding: 0px;}
 body{ background-color: #090A09; }
-body#system{ background: #FF9898;}
+body#system{ background: #090A09;}
 
 /* 
     Global Typography 
@@ -17,10 +17,10 @@ a, p, h3, h4, h5, h6{ color: #8B949E;}
     System debugger, possibly also navigation and menu style
 */
 #raised > h4.debug{animation: FadeInAnim ease 2s; animation-iteration-count: 1;}
-h1#debug, h3.debug, h4.debug{ padding: 40px 40px 0px; color: #FFD4D4; animation: FadeInAnim ease 2s; animation-iteration-count: 1;}
-h3.debug::before, h4.debug{animation: textProgressAnimation ease 250ms; animation-iteration-count: 1; animation-delay: 250ms;  content:"________________________:";}
-h4.debug::before{animation: textProgressAnimation2 ease 250ms; animation-iteration-count: 1; animation-delay: 250ms;  content: "__________:";}
-h1#debug::before{animation: textProgressAnimation ease 250ms; content:"________________________:";}
+h1#debug, h3.debug, h4.debug{ padding: 40px 40px 0px; color: #f7f7f7; animation: FadeInAnim ease 2s; animation-iteration-count: 1;}
+h3.debug::before, h4.debug{animation: textProgressAnimation ease 250ms; animation-iteration-count: 1; animation-delay: 250ms;  content:"________________________: ";}
+h4.debug::before{animation: textProgressAnimation2 ease 250ms; animation-iteration-count: 1; animation-delay: 250ms;  content: "__________: ";}
+h1#debug::before{animation: textProgressAnimation ease 250ms; content:"________________________: ";}
 
 /* 
     onload animations 

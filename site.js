@@ -47,6 +47,7 @@ ___ = {
             /* Chain SVGS document mode */
         }
     },
+    generateGraphicsDocument: {},
     
     /*
         
@@ -58,8 +59,11 @@ ___ = {
         also usable algorithm for Event loops, listeners, call back functions
 
     */
-    generateGraphicsDocument: {
+    threads: {
 
+        /*
+            _() exec, init function 
+        */
         _(){
 
             /* 
@@ -90,7 +94,11 @@ ___ = {
                 }
             }
 
-        }
+        },
+        /*
+            __() Callback function, where options go
+        */
+        __(){}
 
     },
     /*  
@@ -326,28 +334,35 @@ ___ = {
                     raisedMessages = document.querySelector("div");
                     raisedMessages.setAttribute("id","raised");
 
-                    /* Headline */
+                    /* Headline Debug */
                     raisedMessage = document.createElement("h1");
                     raisedMessages.appendChild(raisedMessage);
                     raisedMessage.setAttribute("id","debug");
                     content = document.createTextNode("Debugging.");
                     raisedMessage.appendChild(content);
 
-                    /* Headline */
+                    /* Headline Client */
                     raisedMessage = document.createElement("h3");
                     raisedMessages.appendChild(raisedMessage);
                     raisedMessage.setAttribute("class","debug");
                     content = document.createTextNode("Client Debug.");
                     raisedMessage.appendChild(content);
 
-                    /* Message */
+                    /* Message Protocols */
                     raisedMessage = document.createElement("h4");
                     raisedMessages.appendChild(raisedMessage);
                     raisedMessage.setAttribute("class","debug");
                     content = document.createTextNode(" Protocols Array.");
                     raisedMessage.appendChild(content);
 
-                    /* Headline */
+                    /* Message URL */
+                    raisedMessage = document.createElement("h4");
+                    raisedMessages.appendChild(raisedMessage);
+                    raisedMessage.setAttribute("class","debug");
+                    content = document.createTextNode(" Protocols Array.");
+                    raisedMessage.appendChild(content);
+
+                    /* Headline Server */
                     raisedMessage = document.createElement("h3");
                     raisedMessages.appendChild(raisedMessage);
                     raisedMessage.setAttribute("class","debug");
@@ -357,31 +372,11 @@ ___ = {
 
 
 
-                },
+                }
 
                
             }  
             
-        },
-        onHashListener:{ _(){
-            
-
-
-            }
-        },
-        onHashHandler:{},
-        onHashEvent:{ 
-           _(){
-                /* on address bar change */
-                    window.onhashchange = function() {
-                        /* Event, add event listeners */
-                    };
-        
-                    /* on click change */
-                    window.onclick = function(){
-                        /* Event, add event listeners */
-                    };
-            }
         }
     },
 

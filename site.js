@@ -87,6 +87,9 @@ ___ = {
                 callback functions in JavaScript and C are used to keep the loop alive
                 in C it's pointers mixed with loops
 
+                this way you can manage garbage collection by keep alive principles
+                just like http1.1 protocol
+
             */
             for(i = 0; i < 10; i++){
                 for(x =0; x < 10; x++){

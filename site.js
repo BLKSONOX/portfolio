@@ -48,6 +48,7 @@ ___ = {
         mostly written in either binary, octal or in alot of cases hexidecimals
 
         it's also drawing egines for 2D and 3D graphics
+        also usable algorithm for Event loops, listeners, call back functions
 
     */
     generateGraphicsDocument: {

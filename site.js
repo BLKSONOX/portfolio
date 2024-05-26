@@ -27,6 +27,10 @@ ___ = {
     uris:               [],
     url: new URL(location),
     
+    
+    /*
+        ASSII or SVG Animations
+    */
     anim:{
         
         _(_svg,dur, count){

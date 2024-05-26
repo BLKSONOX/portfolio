@@ -129,6 +129,17 @@ ___ = {
         __(){},
 
     },
+
+    /*
+        Seetup Page for URI paths, Events tied to URI paths, events tied to Protocol events and bindings
+        and last brick sessions data
+    */
+    generateDebugPage:{
+        _(){
+            
+        },
+    },
+
     /*  
         Document HTML document, streams and channels, also Database Document stream and channels
         partition database in the same way
@@ -257,6 +268,7 @@ ___ = {
         
         }
     },
+
 
     /*
         The router in this case just reads from the serialized array bind tree and execs the route events

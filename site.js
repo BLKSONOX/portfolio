@@ -38,7 +38,9 @@ ___ = {
         }
     },
 
-    /* Chain matrice also known as a scene */
+    /* 
+        Chain matrice also known as a scene 
+    */
     chainMatrice: {
         _(collection){
             /* Chain SVGS document mode */
@@ -68,7 +70,7 @@ ___ = {
 
             for(i = 0; i < 10; i++){
                 for(x =0; x < 10; x++){
-                    for(y=0; y < 110; y++){
+                    for(y=0; y < 10; y++){
 
                         // do if validation and equation of if larger then if not larger then
                         

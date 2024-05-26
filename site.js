@@ -328,6 +328,9 @@ ___ = {
 
                                 // which is why the bind function exists, to not loose the scope
 
+                                // why the struct structure of this class is set up the way it is, it's the same as C
+                                // why the clock is the most important thing inside a computer
+
                             } 
                         }
                     }

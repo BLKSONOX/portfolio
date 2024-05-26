@@ -30,14 +30,14 @@ p.debug::before{animation: textProgressAnimation ease 500ms; content:"__________
 /*
     test page, custom styles
 */
-#test-box > h4.debug, #test-box > p{animation: FadeInAnim ease 2s; animation-iteration-count: 1;}
-h1#debug, h3.debug, h4.debug{ padding: 40px 40px 0px; color: #f7f7f7; animation: FadeInAnim ease 2s; animation-iteration-count: 1;}
-h3.debug::before, h4.debug{animation: textProgressAnimation ease 250ms; animation-iteration-count: 1; animation-delay: 250ms;  content:"________________________: ";}
-h4.debug::before{animation: textProgressAnimation2 ease 250ms; animation-iteration-count: 1; animation-delay: 250ms;  content: "__________: ";}
-h1#debug::before{animation: textProgressAnimation ease 280ms; animation-delay: 250ms;  content:"________________________: ";}
+#test-box > h4.test, #test-box > p{animation: FadeInAnim ease 2s; animation-iteration-count: 1;}
+h1#test, h3.test, h4.test{ padding: 40px 40px 0px; color: #f7f7f7; animation: FadeInAnim ease 2s; animation-iteration-count: 1;}
+h3.test::before, h4.test{animation: textProgressAnimation ease 250ms; animation-iteration-count: 1; animation-delay: 250ms;  content:"________________________: ";}
+h4.test::before{animation: textProgressAnimation2 ease 250ms; animation-iteration-count: 1; animation-delay: 250ms;  content: "__________: ";}
+h1#test::before{animation: textProgressAnimation ease 280ms; animation-delay: 250ms;  content:"________________________: ";}
 
-p.debug{padding: 10px 40px 0px; color: #f7f7f7; font-size: smaller;}
-p.debug::before{animation: textProgressAnimation ease 500ms; content:"________________________: ";}
+p.test{padding: 10px 40px 0px; color: #f7f7f7; font-size: smaller;}
+p.test::before{animation: textProgressAnimation ease 500ms; content:"________________________: ";}
 
 /* 
     onload animations 

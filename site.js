@@ -90,7 +90,6 @@ ___ = {
                 this way you can manage garbage collection by keep alive principles
                 just like http1.1 protocol
 
-                how the loop structure works: \/
 
             */
             for(i = Threads[0]; Thread < i; i++){

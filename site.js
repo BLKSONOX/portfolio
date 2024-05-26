@@ -94,7 +94,7 @@ ___ = {
             */
             for(i = Threads[0]; Thread < i; i++){
                 for(x = Threads[1]; i < x; x++){
-                    for(y= Threads[2]; x < i; y++){
+                    for(y = Threads[2]; x < i; y++){
 
                         /* 
                             on a web server multiple concurrent connections would be sorted in frequencey of 
@@ -102,7 +102,7 @@ ___ = {
 
                             in this example every nth time we ping something
                         */
-                        if(i % 2 == 0) console.log("thredded i times, every nth pulse: "+i);
+                        if(i % 2 == 0) console.log("threadded i times, every nth pulse: "+i);
 
                         // do if validation and equation of if larger then if not larger then
                         
@@ -423,15 +423,19 @@ ___ = {
                     content = document.createTextNode("URI's.");
                     raisedMessage.appendChild(content);
 
+                    /* raised object */
+                    raisedMessage = document.createElement("p");
+                    raisedMessages.appendChild(raisedMessage);
+                    raisedMessage.setAttribute("class","debug");
+                    content = document.createTextNode(JSON.stringify(self.___.uris));
+                    raisedMessage.appendChild(content);
+
                     /* Headline Server */
                     raisedMessage = document.createElement("h3");
                     raisedMessages.appendChild(raisedMessage);
                     raisedMessage.setAttribute("class","debug");
                     content = document.createTextNode("Server Debug.");
                     raisedMessage.appendChild(content);
-
-
-                    console.log(self.____.threads._());
 
 
                 }

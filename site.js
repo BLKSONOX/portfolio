@@ -78,6 +78,16 @@ ___ = {
             Thread      = ThreadRoot.toString();
             Threads     = [Thread.substring(9), Thread.substring(8), Thread.substring(7)];
 
+            
+            /*
+                
+                Callback functions usually threaded through the for loops intertwined
+                usually in the inner loop
+
+                callback functions in JavaScript and C are used to keep the loop alive
+                in C it's pointers mixed with loops
+
+            */
             for(i = 0; i < 10; i++){
                 for(x =0; x < 10; x++){
                     for(y=0; y < 10; y++){

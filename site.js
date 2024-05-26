@@ -115,7 +115,7 @@ ___ = {
         },
 
         /*
-            __() Callback function, where options go
+            __() Callback function, where options
         */
         __(){}
 
@@ -389,6 +389,7 @@ ___ = {
                     raisedMessage.appendChild(content);
 
 
+                    console.log(window.start);
 
 
                 }

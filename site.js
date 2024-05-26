@@ -18,6 +18,11 @@
     the more everything is mapped out the smaller the code base gets when going into production
     a huge part of Rock Solid programming style
 
+    _() exec, init function 
+    __() Callback function, where options go
+
+    clean up code when refined
+
 */
 
 ___ = {
@@ -95,7 +100,7 @@ ___ = {
             }
 
         },
-        
+
         /*
             __() Callback function, where options go
         */

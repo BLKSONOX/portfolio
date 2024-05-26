@@ -90,6 +90,8 @@ ___ = {
                 this way you can manage garbage collection by keep alive principles
                 just like http1.1 protocol
 
+                how the loop structure works: \/
+
             */
             for(i = Threads[0]; Thread < i; i++){
                 for(x = Threads[1]; i < x; x++){
@@ -125,7 +127,7 @@ ___ = {
         /*
             __() Callback function, where options
         */
-        __(){}
+        __(){},
 
     },
     /*  
@@ -379,14 +381,35 @@ ___ = {
                     raisedMessage = document.createElement("h4");
                     raisedMessages.appendChild(raisedMessage);
                     raisedMessage.setAttribute("class","debug");
-                    content = document.createTextNode(" Protocols Array.");
+                    content = document.createTextNode("Protocols Array.");
+                    raisedMessage.appendChild(content);
+
+                    /* raised object */
+                    raisedMessage = document.createElement("p");
+                    raisedMessages.appendChild(raisedMessage);
+                    raisedMessage.setAttribute("class","debug");
+                    content = document.createTextNode(JSON.stringify(self.___.url.protocols));
                     raisedMessage.appendChild(content);
 
                     /* Message URL */
                     raisedMessage = document.createElement("h4");
                     raisedMessages.appendChild(raisedMessage);
                     raisedMessage.setAttribute("class","debug");
-                    content = document.createTextNode(" Protocols Array.");
+                    content = document.createTextNode("URL Object.");
+                    raisedMessage.appendChild(content);
+
+                    /* raised object */
+                    raisedMessage = document.createElement("p");
+                    raisedMessages.appendChild(raisedMessage);
+                    raisedMessage.setAttribute("class","debug");
+                    content = document.createTextNode(JSON.stringify(self.___.url.hash));
+                    raisedMessage.appendChild(content);
+
+                    /* Message URI */
+                    raisedMessage = document.createElement("h4");
+                    raisedMessages.appendChild(raisedMessage);
+                    raisedMessage.setAttribute("class","debug");
+                    content = document.createTextNode("URI's.");
                     raisedMessage.appendChild(content);
 
                     /* Headline Server */

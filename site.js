@@ -91,9 +91,17 @@ ___ = {
                 just like http1.1 protocol
 
             */
-            for(i = 0; i < 10; i++){
-                for(x =0; x < 10; x++){
-                    for(y=0; y < 10; y++){
+            for(i = Threads[0]; Thread < i; i++){
+                for(x = Threads[1]; i < x; x++){
+                    for(y= Threads[2]; x < i; y++){
+
+                        /* 
+                            on a web server multiple concurrent connections would be sorted in frequencey of 
+                            Spawing new loops through callbacks
+
+                            in this example every nth time we ping something
+                        */
+                        if(i % 2 == 0) console.log("thredded i times, every nth pulse: "+i);
 
                         // do if validation and equation of if larger then if not larger then
                         
@@ -389,7 +397,7 @@ ___ = {
                     raisedMessage.appendChild(content);
 
 
-                    console.log(window.start);
+                    console.log(self.____.threads._());
 
 
                 }

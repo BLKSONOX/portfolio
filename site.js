@@ -40,6 +40,7 @@ ___ = {
 
     /* 
         Chain matrice also known as a scene 
+        comparable with ANSI Escape blocks
     */
     chainMatrice: {
         _(collection){

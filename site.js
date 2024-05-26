@@ -347,6 +347,26 @@ ___ = {
                 Fixed framework URI
                 automate console.log and html rendering, streamlined
             */
+
+            if (self.___.url.hash == "#/test"){
+                window.onload = function(){
+                    document.body.innerHTML = ''; 
+
+                    /* div */
+                    document.body.setAttribute("id", "test");
+                    document.body.appendChild(document.createElement("div"));
+                    raisedMessages = document.querySelector("div");
+                    raisedMessages.setAttribute("id","test-box");
+
+                    /* Headline Debug */
+                    raisedMessage = document.createElement("h1");
+                    raisedMessages.appendChild(raisedMessage);
+                    raisedMessage.setAttribute("id","test");
+                    content = document.createTextNode("Test Page");
+                    raisedMessage.appendChild(content);
+                }
+
+            }
             
             if (self.___.url.hash == "#/debug"){
                 /* 

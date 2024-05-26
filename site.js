@@ -155,8 +155,14 @@ ___ = {
 
                     */
                     if(str[0] == self.___.uris[0]){
-                        console.log("____: Document Generator");
-                        console.log(str[1]);
+
+                        /* 
+                            
+                            bind document to event listener
+                            on load and on click
+                            also bind to static hash change
+                         
+                        */
                     }
                 }
                
@@ -298,30 +304,61 @@ ___ = {
                     content = document.createTextNode("Server Debug.");
                     raisedMessage.appendChild(content);
 
-                    
-                    
-                    //document.createTextnode("Debuggin.");
+                
+
+                    /*
+                        Threads
+                    */
+
+                    ThreadRoot  = Math.floor(Date.now() / 1000);
+                    Thread      = ThreadRoot.toString();
+                    Threads     = [Thread.substring(9), Thread.substring(8), Thread.substring(7)];
+
+                    for(i = 0; i < 10; i++){
+                        for(x =0; x < 10; x++){
+                            for(y=0; y < 10; y++){
+
+                                // do if validation and equation of if larger then if not larger then
+                                
+                                // in threading the whole application exists within the thread loops
+                                // the reason why JavaScript has call back functions, time interpolation inside of the loop
+
+                                // fullly possible within JavaScript, in order for it to work it has to be not broken 
+                                // easier said then done function calls breaks loops in javascript
+
+                                // which is why the bind function exists, to not loose the scope
+
+                            } 
+                        }
+                    }
+
+
 
 
                 }
 
                
-            }
-
-            for( i=0; i < self.___.uris.length; i++){
-
-            }
-
+            }  
             
         },
-        onHash: function(){
+        onHashListener:{ _(){
+            
 
-            window.onhashchange = function() {
-                 /* Event, add event listeners */
-            };
 
-            window.onclick = function(){
-                /* Event, add event listeners */
+            }
+        },
+        onHashHandler:{},
+        onHashEvent:{ 
+           _(){
+                /* on address bar change */
+                    window.onhashchange = function() {
+                        /* Event, add event listeners */
+                    };
+        
+                    /* on click change */
+                    window.onclick = function(){
+                        /* Event, add event listeners */
+                    };
             }
         }
     },

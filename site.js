@@ -98,7 +98,7 @@ ___ = {
                         // do if validation and equation of if larger then if not larger then
                         
                         // in threading the whole application exists within the thread loops
-                        // the reason why JavaScript has call back functions, time interpolation inside of the loop
+                        // the reason why JavaScript has callback functions, time interpolation inside of the loop
 
                         // fullly possible within JavaScript, in order for it to work it has to be not broken 
                         // easier said then done function calls breaks loops in javascript

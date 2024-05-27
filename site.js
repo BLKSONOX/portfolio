@@ -144,6 +144,7 @@ ___ = {
                 _object = Object.values(_object);
                 for(i = 0; i < _object.length; i++){
                     
+                    // replace with callback function
                     document.title = _object[0]
                     
                     if(_object[i] == _object[1]){
@@ -151,12 +152,15 @@ ___ = {
                         _tplConfig  = _object[1];
                         _tplConfig  = _tplConfig.split(':');
 
+                        _tplConfig_  = _object[1];
+                        _tplConfig_  = _tplConfig_.split(':');
+
                         for(x = 0; _tplConfig.length > x; x++){
 
                             _tplConfig[x] = _tplConfig[x].split('-');
+                            
                             if(_tplConfig[x] === _tplConfig[0]){
                                 // template width
-
                                 //reset fullwidth array
                                 _tplConfig[0] = 0;
                             }
@@ -192,11 +196,19 @@ ___ = {
                                     _tplConfig[x][y+3]      == "left"    ||  
                                     _tplConfig[x][y+3]      == "right"   ||  
                                     _tplConfig[x][y+3]      == "bottom"){
+
+                                        /*
+                                            When uneven results use match sets from the orignal object not parted
+                                            programatically equal return 0
+                                        */
                                         
                                         if(_tplConfig[x][y+2] == undefined ){
                                             console.log("validated");
                                         }else{
-                                           // console.log(_tplConfig[x][y+2]);
+                                        // find position owner
+                                        //console.log(_tplConfig[x][y]);
+                                        // console.log(_tplConfig[x][y+2]);
+                                        console.log(_tplConfig[x][y]+"+"+_tplConfig[x][y+1]+"+"+_tplConfig[x][y+2]);
                                         }
 
                                         console.log("_____________________");
@@ -204,18 +216,18 @@ ___ = {
                                         if(_tplConfig[x][y+1] == undefined ){
                                             console.log("validated");
                                         }else{
-                                           // console.log(_tplConfig[x][y+1])
+                                        // find position owner
+                                        console.log(_tplConfig[x][y]+"+"+_tplConfig[x][y+1]+"+"+_tplConfig[x][y+2]);
+                                        // console.log(_tplConfig[x][y+1])
                                         }
 
                                         console.log("_____________________");
 
-                                        console.log(_tplConfig[x][y+2]);
-                                        console.log(y+2)
-
                                         if(_tplConfig[x][y+3] == undefined ){
                                             console.log("validated");
                                         }else{
-                                            console.log(_tplConfig[x][y+3]);
+                                        // find position owner
+                                        // console.log(_tplConfig[x][y+3]);
                                         }
 
 

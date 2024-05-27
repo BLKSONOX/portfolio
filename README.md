@@ -31,3 +31,22 @@ number rows pointer to the matrice, usually converted into multiplication tables
 that simple, the rest of the math or proofing is within the exponent range of the octal to find number bases, ratios etc
 
 what does a server need; networkscard, CPU, RAM, keyboard, mouse, and VGA console mode
+
+Thinking projects, thinking exersizes:
+what does a web browser actually need to do?
+
+read HTML files, css files and javascript files
+it's more complicated but however; "print out and let user draw on viewport"
+
+The browsers might have a bloat problem still, codebase extremely tied to user interface
+"everything machine"
+
+we need profilers
+
+it's bloated, and i know why, sepparating of objects through UI/UX is ducktaped
+it creates a ton of draw bugs and document render bugs
+
+thinking exersize; you have a frame, that frame does alot of things, what's needed in that frame? and how much can just be that frame draw?
+
+they're still using UI/UX kits and not direct draw on the frame
+dropping that might sort the current bloating issues

@@ -2,7 +2,7 @@
     
     Private semi useful framework for private sites
     
-    Project title: ____
+    Project title: ___
 
     Author Bendikt Martin Myklebust
 
@@ -21,7 +21,7 @@
     _() exec, init function 
     __() Callback function, where options go
 
-    clean up code when refined
+    use _() for testing for now, sort code when most code is minimized
 
 */
 
@@ -155,6 +155,12 @@ ___ = {
                 // content = document.createTextNode("Test Page");
                 // raisedMessage.appendChild(content);
 
+            }
+            if(type == "css"){
+                // use secondary HTML document, empty that out and print out on that as raw text without HTML tags
+                // Tested it works, to have dynamically typed CSS use URI anchors and print on that document URI anchor route
+                // needs an approach to routing and printing todo later when time is there
+                // https://stackoverflow.com/questions/67527882/how-to-get-another-html-file-as-if-getting-it-by-document-without-using-jquery
             }
         },
         __(){
@@ -564,17 +570,26 @@ ___ = {
 
             self.___.generatePageDocument._(null, null, "data", "#/page");
             self.___.generatePageDocument._(null, null, "data", "#/page/innerPage");
+            
 
             /* modal box setup */
             /* ___.generatePageDocument._(null, null, "blob", "#/page/modal/<boxType>"); */
 
             /* URI router */
             self.___.router._();
+
+            self.___.tpl._("css");
         }
     }
 }
 
+
+/* 
+    Make JSON file to configure whole site
+ */
 ___.controller._();
+
+
 
 /* WIP */
 /* animations stage layers */

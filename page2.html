@@ -1,19 +1,115 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Other page</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/">Home</a>
-      <a href="/page2.html" aria-current="page">Other page</a>
-    </nav>
-    <main>
-      <h1>My other page</h1>
-    </main>
-  </body>
-</html>
+/*
+    Globals
+*/
+* { margin: 0px; padding: 0px;}
+body{ background-color: #090A09; }
+body#system{ background-color: #e40044;}
+body#ls{ background-color: #3B00E4;}
+
+/* 
+    Global Typography 
+*/
+a, p, h1, h2, h3, h4, h5, h6{  font-family: "Inter", sans-serif; }
+h1, h2{ color: #FFFFFF;}
+a, p, h3, h4, h5, h6{ color: #DFD3FF;}
+
+/*
+    Create CSS variables
+*/
+
+
+
+/*
+    System debugger, possibly also navigation and menu style, static style
+    
+*/
+#raised{ animation: down2 0.8s; animation-iteration-count: 1;}
+#raised > h4.debug, #raised > p{animation: FadeInAnim ease 2s; animation-iteration-count: 1;}
+h1#debug, h3.debug, h4.debug{ padding: 40px 40px 0px; color: #f7f7f7; animation: FadeInAnim ease 2s; animation-iteration-count: 1;}
+h3.debug::before, h4.debug{animation: textProgressAnimation ease 350ms; animation-iteration-count: 1; animation-delay: 250ms;  content:"________________________: ";}
+h4.debug::before{animation: textProgressAnimation2 ease 350ms; animation-iteration-count: 1; animation-delay: 250ms;  content: "__________: ";}
+h1#debug::before{animation: textProgressAnimation ease 380ms; animation-delay: 50ms;  content:"________________________: ";}
+
+p.debug{padding: 10px 40px 0px; color: #f7f7f7; font-size: smaller;}
+p.debug::before{animation: textProgressAnimation ease 700ms; content:"________________________: ";}
+
+/*
+    LS Theme
+*/
+#ls-l > h4.ls, #ls-l > p{animation: FadeInAnim ease 2s; animation-iteration-count: 1;}
+h1#ls-title, h3.test, h4.test{ padding: 40px 40px 0px; color: #f7f7f7; animation: FadeInAnim ease 2s; animation-iteration-count: 1;}
+h3.ls::before, h4.test{animation: textProgressAnimation ease 350ms; animation-iteration-count: 1; animation-delay: 250ms;  content:"________________________: ";}
+h4.ls::before{animation: textProgressAnimation2 ease 350ms; animation-iteration-count: 1; animation-delay: 250ms;  content: "__________: ";}
+h1#ls-title::before{animation: textProgressAnimation ease 380ms; animation-delay: 50ms;  content:"________________________: ";}
+
+p.ls{padding: 10px 40px 0px; color: #f7f7f7; font-size: smaller;}
+p.ls::before{animation: textProgressAnimation ease 700ms; content:"________________________: ";}
+
+h3.line-animation{margin-top: 100px; font-size: smaller; transform: rotate(90deg) scaleX(-1)}
+h3.line-animation::before{ animation: textProgressAnimation3 ease 0.1ms; animation-iteration-count: infinite; animation-delay: 10ms;  content:"_________________________________________________________________: ";}
+h3.line-animation::after{ content:"___________________________________________: "}
+
+/* 
+    onload animations 
+*/
+@keyframes FadeInAnim { 0%{ opacity: 0; } 100%{ opacity: 100%;} }
+@keyframes down { 0%{ margin-top: -100px; } 100%{ margin-top: 0px; } }
+@keyframes down2 { 0%{ margin-top: -150px; } 100%{ margin-top: 0px; } }
+
+@keyframes textProgressAnimation{ 0%{ content: "";} 10%{ content: ":";} 20%{ content: "_:"; } 30%{ content: "__/_:"; } 40%{ content: "_|__/__*__|:"; } 50%{ content: "__*__/__**__ _:"; } 60%{ content: "__/___*_|__/____:"; } 70%{ content: "__|___*___/___|*__*%___:"; } 80%{  content: "___*____*%__/__**___/___*_/__:"; } 90%{ content: "______/___________/_____:"; } 100%{ content: "_____/___________________:"; }}
+@keyframes textProgressAnimation2{ 0%{ content: ""; } 10%{ content: ":";} 20%{ content: "_:"; } 30%{ content: "|_/*_/_:";  } 40%{ content: "_*_/__:";  } 50%{ content: "_|_*_/_*_/_:";  } 70%{ content: "__*__/__  _:";  } 80%{ content: "__/_/___/__:";} 90%{ content: "_/_|__/_|__/_*_:";} 100%{ content: "__________:";} }
+@keyframes textProgressAnimation3{ 0%{ content: "";} 10%{ content: ":";} 20%{ content: "_:"; } 30%{ content: "__/_:"; } 40%{ content: "_|__/__*__|:"; } 50%{ content: "__*__/______:"; } 60%{ content: "__/__*%_¤_*_|__/___|*___*%_¤___:"; } 70%{ content: "__|___*___/___|*___*%_¤__:"; } 80%{  content: "___*_____/__**___*__/_*%_¤___*_/__:"; } 90%{ content: "__*%_¤__*__/_*%_¤__*__|___/____|____/__*%_¤____:"; } 100%{ content: "___*__/____/*%___*__/_*%_¤__*__|__*__/_*_____*__|___/____|____/__*________:"; }}
+
+/* 
+    Description containers and values
+*/
+main#desc{ animation: down 1s; animation-iteration-count: 1;}
+main#desc h1 .material-symbols-outlined{ margin-left: 45%;}
+main#desc > h1, main#desc > h3, main#desc > h4{ animation: FadeInAnim ease 2s; animation-iteration-count: 1;}
+main#desc h3{ padding: 20px 0  100px 0;}
+main#desc{ width: 700px; margin-left: auto; margin-right: auto;}
+
+/* 
+    Illustrations containers and values 
+*/
+main#sample-illustrations{ animation: FadeInAnim ease 3s; animation-iteration-count: 1;}
+main#sample-illustrations{ padding-bottom: 20px;}
+main#sample-illustrations article{ padding-bottom: 20px;}
+main#sample-illustrations article img{ width: 100%; /* border-radius: 700px; for later use TV waiting screen ideas */ }
+
+
+
+/*
+    
+    ------------------IMPORTANT NOTE AND COMMENT------------------
+    
+    seems like there's more resource cost in animating content then animating SVG flipbooks
+    content animations are more buggy then
+    
+    ------------------IMPORTANT NOTE AND COMMENT------------------
+
+*/
+
+
+
+
+/* 
+
+    Staging the SVG stage 
+    note; SVG streams are something different, why the tag exisats
+    similar to ifram practices from old times
+    
+*/
+#brand-box, a#a-box{ width: 500px; height: 500px; margin-left: auto; margin-right: auto; overflow: hidden; }
+.brand-ident{ background: url('anims/test/06.svg'); animation-name: brand-hover; animation-duration: 1s; animation-iteration-count: 1; transition: all .2s ease-in-out;}
+.brand-hover2:hover{ animation-name: brand-hover2; animation-duration: 0.8s; animation-iteration-count: infinite; transition: all .2s ease-in-out; }
+.brand-hover:hover{ animation-name: brand-hover; animation-duration: 0.8s; animation-iteration-count: infinite; transition: all .2s ease-in-out;}
+
+
+/* 
+    
+    SVG Flipbook animation of brand
+
+*/
+@keyframes brand-hover2 { 0% { background: url('anims/test/06.svg');} 5% { background: url('anims/test/03.svg');} 10% { background: url('anims/test/01.svg'); } 15% { background: url('anims/test/01.svg');} 25% { background: url('anims/test/06.svg');} 50% { background: url('anims/test/01.svg'); } 75% { background: url('anims/test/04.svg'); } 80% { background: url('anims/test/03.svg'); }}
+@keyframes brand-hover { 7% { background: url('anims/test/07.svg'); } 12% { background: url('anims/test/08.svg'); } 18% { background: url('anims/test/09.svg');} 20%{ background: url('anims/test/Deformers/02.svg');} 30% {background: url('anims/test/10.svg');} 35% { background: url('anims/test/01.svg'); } 45% { background: url('anims/test/11.svg'); } 65% { background: url('anims/test/12.svg'); } 70% { background: url('anims/test/Deformers/01.svg'); } 85% { background: url('anims/test/13.svg'); } 90% { background: url('anims/test/14.svg'); } 100%{ background: url('anims/test/Deformers/0.svg');}}

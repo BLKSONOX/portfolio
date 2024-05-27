@@ -221,6 +221,8 @@ ___ = {
 
                                             also called Asynchronous programming
 
+                                            also how human retention works
+
                                         */
                                         
                                         if(_tplConfig[x][y+2] == undefined ){

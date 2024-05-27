@@ -234,6 +234,7 @@ ___ = {
                                             allows for events to be set and callbacks to be set at the right interjecting moments
 
                                             relational databases is rooted in linguistic and human interaction research, won't go into that in this document
+                                            it's possible to streamline and modify the algorithm to be less then it is as well
 
                                         */
                                         

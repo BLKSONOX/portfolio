@@ -176,6 +176,8 @@ ___ = {
                                         using a math equation more complex then just it's as simple as +
                                         also useful, also known as the pointer
 
+                                        why? unique identifier working with tables that's very useful if doing instructions sets and commands sets
+
                                     */
                                     if(_tplConfig[x][y+1]   == "top"     || 
                                     _tplConfig[x][y+1]      == "left"    ||  

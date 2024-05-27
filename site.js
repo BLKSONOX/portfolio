@@ -206,6 +206,11 @@ ___ = {
                                             the number gets used before it's even in the loop
 
                                             the reason JavaScript has the type undefined, in C it throws an exception while compiling
+
+                                            same principles applies in regards to: Keep the loops alive
+                                            you would have to change the main loop integer into a position
+
+                                            which is why array padding is useful for identifiers
                                         */
                                         
                                         if(_tplConfig[x][y+2] == undefined ){

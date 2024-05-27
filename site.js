@@ -171,8 +171,7 @@ ___ = {
 
                                     
                                     /*
-                                        
-                                        array padding
+                                    |   array padding
                                         very useful for constraining the for loop
                                         and in creating rulesets for strictly typed string definitions and their position in a string
                                         in a contious loop the array number would increase thus one has to move from array to array
@@ -182,11 +181,6 @@ ___ = {
 
                                         why? unique identifier working with tables that's very useful if doing instructions sets and commands sets
                                         old way of doing things before struct existed was string objects, which still is very useful today
-
-                                        
-
-                                      
-
                                     */
                                     if(_tplConfig[x][y+1]   == "top"     || 
                                     _tplConfig[x][y+1]      == "left"    ||  

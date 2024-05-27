@@ -200,6 +200,12 @@ ___ = {
                                         /*
                                             When uneven results use match sets from the orignal object not parted
                                             programatically equal return 0
+
+                                            the reason for why? 
+                                            loop frequencies varies since there's padding inolved forward same applies to backwards
+                                            the number gets used before it's even in the loop
+
+                                            the reason JavaScript has the type undefined, in C it throws an exception while compiling
                                         */
                                         
                                         if(_tplConfig[x][y+2] == undefined ){

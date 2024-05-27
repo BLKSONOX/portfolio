@@ -183,6 +183,8 @@ ___ = {
                                         why? unique identifier working with tables that's very useful if doing instructions sets and commands sets
                                         old way of doing things before struct existed was string objects, which still is very useful today
 
+                                        like blowing soap bubbles, same physics princieples
+
                                     */
                                     if(_tplConfig[x][y+1]   == "top"     || 
                                     _tplConfig[x][y+1]      == "left"    ||  

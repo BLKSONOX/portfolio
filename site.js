@@ -90,6 +90,8 @@ ___ = {
                 this way you can manage garbage collection by keep alive principles
                 just like http1.1 protocol
 
+                testing this loop properly in JavaScript has not been done yet, it works in C and in Python
+
 
             */
             for(i = Threads[0]; Thread < i; i++){
@@ -130,8 +132,38 @@ ___ = {
 
     },
 
+    tpl: {
+        _(type, object){
+            if(type == "page"){
+                document.body.innerHTML = ''; 
+
+                for(i =0; object.length < 10; i++){
+
+                }
+
+                /* element */
+                document.body.setAttribute("id", "ls");
+                document.body.appendChild(document.createElement("div"));
+                raisedMessages = document.querySelector("div");
+                raisedMessages.setAttribute("id","ls -l");
+    
+                /* Headline Debug */
+                raisedMessage = document.createElement("h1");
+                raisedMessages.appendChild(raisedMessage);
+                raisedMessage.setAttribute("id","ls-title");
+                content = document.createTextNode("Test Page");
+                raisedMessage.appendChild(content);
+
+            }
+        },
+        __(){
+
+        }
+
+    },
+
     /*
-        Seetup Page for URI paths, Events tied to URI paths, events tied to Protocol events and bindings
+        Setup Page for URI paths, Events tied to URI paths, events tied to Protocol events and bindings
         and last brick sessions data
     */
     generateDebugPage:{
@@ -348,22 +380,27 @@ ___ = {
                 automate console.log and html rendering, streamlined
             */
 
-            if (self.___.url.hash == "#/test"){
+            if (self.___.url.hash == "#/ls-l"){
                 window.onload = function(){
                     document.body.innerHTML = ''; 
 
                     /* div */
-                    document.body.setAttribute("id", "test");
+                    document.body.setAttribute("id", "ls");
                     document.body.appendChild(document.createElement("div"));
                     raisedMessages = document.querySelector("div");
-                    raisedMessages.setAttribute("id","test-box");
+                    raisedMessages.setAttribute("id","ls -l");
 
                     /* Headline Debug */
                     raisedMessage = document.createElement("h1");
                     raisedMessages.appendChild(raisedMessage);
-                    raisedMessage.setAttribute("id","test");
+                    raisedMessage.setAttribute("id","ls-title");
                     content = document.createTextNode("Test Page");
                     raisedMessage.appendChild(content);
+
+                    /* __________________ */
+                    raisedMessage = document.createElement("h3");
+                    raisedMessages.appendChild(raisedMessage);
+                    raisedMessage.setAttribute("class","line-animation");
                 }
 
             }
@@ -457,6 +494,13 @@ ___ = {
                     content = document.createTextNode("Server Debug.");
                     raisedMessage.appendChild(content);
 
+                    /* __________________ */
+                    raisedMessage = document.createElement("h3");
+                    raisedMessages.appendChild(raisedMessage);
+                    raisedMessage.setAttribute("class","line-animation");
+                    
+                    
+
 
                 }
 
@@ -479,10 +523,43 @@ ___ = {
                 follows js and css data conventions on html document structures
                 example: li[data-active='1']
 
+                why not configure into a pure object?
+                data validation and object validations are two different things
+
+                objects you throw into the function for validation
+                data validation are state validations with intent
+
+                Template setup:
+                Grid options:
+                fullwidth
+                halfwidth
+                nav-top-left
+                nav-top-right
+                nav-bottom-right
+                nav-bottom-left
+                brand-left
+                brand-right
+                brand-center
+                hero-picture-left
+                hero-picture-right
+                hero-text-right
+                hero-text-left
+                content-square-grid
+                content-rectangle-grid
+
             
             */
-            ___.generatePageDocument._(null, null, "data", "#/page");
-            ___.generatePageDocument._(null, null, "data", "#/page/innerPage");
+
+            const tplpage_0 = {
+                title: "page title",
+                contentGrid: "fullwidth:nav-top-left:hero-picture-left:hero-text-left:content-square-grid",
+            }
+
+
+            self.____.tpl._("page", tplpage_0);
+
+            self.___.generatePageDocument._(null, null, "data", "#/page");
+            self.___.generatePageDocument._(null, null, "data", "#/page/innerPage");
 
             /* modal box setup */
             /* ___.generatePageDocument._(null, null, "blob", "#/page/modal/<boxType>"); */

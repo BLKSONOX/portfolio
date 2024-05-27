@@ -3,8 +3,8 @@
 */
 * { margin: 0px; padding: 0px;}
 body{ background-color: #090A09; }
-body#system{ background-color: #3B00E4;}
-body#test{ background-color: #3B00E4;}
+body#system{ background-color: #e40044;}
+body#ls{ background-color: #3B00E4;}
 
 /* 
     Global Typography 
@@ -13,40 +13,52 @@ a, p, h1, h2, h3, h4, h5, h6{  font-family: "Inter", sans-serif; }
 h1, h2{ color: #FFFFFF;}
 a, p, h3, h4, h5, h6{ color: #DFD3FF;}
 
+/*
+    Create CSS variables
+*/
+
+
 
 /*
     System debugger, possibly also navigation and menu style, static style
     
 */
+#raised{ animation: down2 0.8s; animation-iteration-count: 1;}
 #raised > h4.debug, #raised > p{animation: FadeInAnim ease 2s; animation-iteration-count: 1;}
 h1#debug, h3.debug, h4.debug{ padding: 40px 40px 0px; color: #f7f7f7; animation: FadeInAnim ease 2s; animation-iteration-count: 1;}
-h3.debug::before, h4.debug{animation: textProgressAnimation ease 250ms; animation-iteration-count: 1; animation-delay: 250ms;  content:"________________________: ";}
-h4.debug::before{animation: textProgressAnimation2 ease 250ms; animation-iteration-count: 1; animation-delay: 250ms;  content: "__________: ";}
-h1#debug::before{animation: textProgressAnimation ease 280ms; animation-delay: 250ms;  content:"________________________: ";}
+h3.debug::before, h4.debug{animation: textProgressAnimation ease 350ms; animation-iteration-count: 1; animation-delay: 250ms;  content:"________________________: ";}
+h4.debug::before{animation: textProgressAnimation2 ease 350ms; animation-iteration-count: 1; animation-delay: 250ms;  content: "__________: ";}
+h1#debug::before{animation: textProgressAnimation ease 380ms; animation-delay: 50ms;  content:"________________________: ";}
 
 p.debug{padding: 10px 40px 0px; color: #f7f7f7; font-size: smaller;}
-p.debug::before{animation: textProgressAnimation ease 500ms; content:"________________________: ";}
+p.debug::before{animation: textProgressAnimation ease 700ms; content:"________________________: ";}
 
 /*
-    test page, custom styles
+    LS Theme
 */
-#test-box > h4.test, #test-box > p{animation: FadeInAnim ease 2s; animation-iteration-count: 1;}
-h1#test, h3.test, h4.test{ padding: 40px 40px 0px; color: #f7f7f7; animation: FadeInAnim ease 2s; animation-iteration-count: 1;}
-h3.test::before, h4.test{animation: textProgressAnimation ease 250ms; animation-iteration-count: 1; animation-delay: 250ms;  content:"________________________: ";}
-h4.test::before{animation: textProgressAnimation2 ease 250ms; animation-iteration-count: 1; animation-delay: 250ms;  content: "__________: ";}
-h1#test::before{animation: textProgressAnimation ease 280ms; animation-delay: 250ms;  content:"________________________: ";}
+#ls-l > h4.ls, #ls-l > p{animation: FadeInAnim ease 2s; animation-iteration-count: 1;}
+h1#ls-title, h3.test, h4.test{ padding: 40px 40px 0px; color: #f7f7f7; animation: FadeInAnim ease 2s; animation-iteration-count: 1;}
+h3.ls::before, h4.test{animation: textProgressAnimation ease 350ms; animation-iteration-count: 1; animation-delay: 250ms;  content:"________________________: ";}
+h4.ls::before{animation: textProgressAnimation2 ease 350ms; animation-iteration-count: 1; animation-delay: 250ms;  content: "__________: ";}
+h1#ls-title::before{animation: textProgressAnimation ease 380ms; animation-delay: 50ms;  content:"________________________: ";}
 
-p.test{padding: 10px 40px 0px; color: #f7f7f7; font-size: smaller;}
-p.test::before{animation: textProgressAnimation ease 500ms; content:"________________________: ";}
+p.ls{padding: 10px 40px 0px; color: #f7f7f7; font-size: smaller;}
+p.ls::before{animation: textProgressAnimation ease 700ms; content:"________________________: ";}
+
+h3.line-animation{margin-top: 100px; font-size: smaller; transform: rotate(90deg) scaleX(-1)}
+h3.line-animation::before{ animation: textProgressAnimation3 ease 0.1ms; animation-iteration-count: infinite; animation-delay: 10ms;  content:"_________________________________________________________________: ";}
+h3.line-animation::after{ content:"___________________________________________: "}
 
 /* 
     onload animations 
 */
 @keyframes FadeInAnim { 0%{ opacity: 0; } 100%{ opacity: 100%;} }
 @keyframes down { 0%{ margin-top: -100px; } 100%{ margin-top: 0px; } }
+@keyframes down2 { 0%{ margin-top: -150px; } 100%{ margin-top: 0px; } }
 
-@keyframes textProgressAnimation{ 0%{ content: "";} 10%{ content: ":";} 20%{ content: "_:"; } 30%{ content: "___:"; } 40%{ content: "_______:"; } 50%{ content: "_________:"; } 60%{ content: "____________:"; } 70%{ content: "________________:"; } 80%{  content: "___________________:"; } 90%{ content: "______________________:"; } 100%{ content: "________________________:"; }}
-@keyframes textProgressAnimation2{ 0%{ content: ""; } 10%{ content: ":";} 20%{ content: "_:"; } 30%{ content: "___:";  } 40%{ content: "____:";  } 50%{ content: "_____:";  } 60%{ content: "______:";  } 70%{ content: "_______:";  } 80%{ content: "________:";} 90%{ content: "_________:";} 100%{ content: "__________:";} }
+@keyframes textProgressAnimation{ 0%{ content: "";} 10%{ content: ":";} 20%{ content: "_:"; } 30%{ content: "__/_:"; } 40%{ content: "_|__/__*__|:"; } 50%{ content: "__*__/__**__ _:"; } 60%{ content: "__/___*_|__/____:"; } 70%{ content: "__|___*___/___|*__*%___:"; } 80%{  content: "___*____*%__/__**___/___*_/__:"; } 90%{ content: "______/___________/_____:"; } 100%{ content: "_____/___________________:"; }}
+@keyframes textProgressAnimation2{ 0%{ content: ""; } 10%{ content: ":";} 20%{ content: "_:"; } 30%{ content: "|_/*_/_:";  } 40%{ content: "_*_/__:";  } 50%{ content: "_|_*_/_*_/_:";  } 70%{ content: "__*__/__  _:";  } 80%{ content: "__/_/___/__:";} 90%{ content: "_/_|__/_|__/_*_:";} 100%{ content: "__________:";} }
+@keyframes textProgressAnimation3{ 0%{ content: "";} 10%{ content: ":";} 20%{ content: "_:"; } 30%{ content: "__/_:"; } 40%{ content: "_|__/__*__|:"; } 50%{ content: "__*__/______:"; } 60%{ content: "__/__*%_¤_*_|__/___|*___*%_¤___:"; } 70%{ content: "__|___*___/___|*___*%_¤__:"; } 80%{  content: "___*_____/__**___*__/_*%_¤___*_/__:"; } 90%{ content: "__*%_¤__*__/_*%_¤__*__|___/____|____/__*%_¤____:"; } 100%{ content: "___*__/____/*%___*__/_*%_¤__*__|__*__/_*_____*__|___/____|____/__*________:"; }}
 
 /* 
     Description containers and values

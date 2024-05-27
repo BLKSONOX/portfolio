@@ -223,6 +223,14 @@ ___ = {
 
                                             also how human retention works
 
+                                            -----------------------------------------
+
+                                            Why get the original like that?
+                                            in this case, the programatically algorithm for the HTML documents are that of relational databases
+
+                                            search and match engines, why? in order to order the stack of commands into HTML making sure the loop follows the HTML structures
+                                            allows for events to be set and callbacks to be set at the right interjecting moments
+
                                         */
                                         
                                         if(_tplConfig[x][y+2] == undefined ){

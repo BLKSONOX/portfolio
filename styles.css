@@ -11,7 +11,7 @@ body#ls{ background-color: #3B00E4;}
 */
 a, p, h1, h2, h3, h4, h5, h6{  font-family: "Inter", sans-serif; }
 h1, h2{ color: #FFFFFF;}
-a, p, h3, h4, h5, h6{ color: #DFD3FF;}
+a, p, h3, h4, h5, h6{ color: #8B949E;}
 
 /*
     Create CSS variables
@@ -21,7 +21,6 @@ a, p, h3, h4, h5, h6{ color: #DFD3FF;}
 
 /*
     System debugger, possibly also navigation and menu style, static style
-    
 */
 #raised{ animation: down2 0.8s; animation-iteration-count: 1;}
 #raised > h4.debug, #raised > p{animation: FadeInAnim ease 2s; animation-iteration-count: 1;}
@@ -45,7 +44,7 @@ h1#ls-title::before{animation: textProgressAnimation ease 380ms; animation-delay
 p.ls{padding: 10px 40px 0px; color: #f7f7f7; font-size: smaller;}
 p.ls::before{animation: textProgressAnimation ease 700ms; content:"________________________: ";}
 
-h3.line-animation{margin-top: 100px; font-size: smaller; transform: rotate(90deg) scaleX(-1)}
+h3.line-animation{color: #f7f7f7; margin-top: 100px; font-size: smaller; transform: rotate(90deg) scaleX(-1)}
 h3.line-animation::before{ animation: textProgressAnimation3 ease 0.1ms; animation-iteration-count: infinite; animation-delay: 10ms;  content:"_________________________________________________________________: ";}
 h3.line-animation::after{ content:"___________________________________________: "}
 

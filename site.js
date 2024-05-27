@@ -136,10 +136,94 @@ ___ = {
         _(type, _object){
             if(type == "page"){
                 //document.body.innerHTML = ''; 
-                _object = Object.values(_object);
 
+                /*
+                    Threaded for loop
+                    how to create a threaded for loop, multiple ways
+                */
+                _object = Object.values(_object);
                 for(i = 0; i < _object.length; i++){
-                    console.log(_object[i]);
+                    
+                    document.title = _object[0]
+                    
+                    if(_object[i] == _object[1]){
+                        
+                        _tplConfig  = _object[1];
+                        _tplConfig  = _tplConfig.split(':');
+
+                        for(x = 0; _tplConfig.length > x; x++){
+
+                            _tplConfig[x] = _tplConfig[x].split('-');
+                            if(_tplConfig[x] === _tplConfig[0]){
+                                // template width
+
+                                //reset fullwidth array
+                                _tplConfig[0] = 0;
+                            }
+
+
+                            console.log("______________");
+                            for(y = 0; _tplConfig[x].length > y; y ++){
+
+                                    
+                                    /*
+                                        
+                                        array padding
+                                        very useful for constraining the for loop
+                                        and in creating rulesets for strictly typed string definitions and their position in a string
+                                        in a contious loop the array number would increase thus one has to move from array to array
+
+                                        using a math equation more complex then just it's as simple as +
+                                        also useful, also known as the pointer
+
+                                    */
+                                    if(_tplConfig[x][y+1]   == "top"     || 
+                                    _tplConfig[x][y+1]      == "left"    ||  
+                                    _tplConfig[x][y+1]      == "right"   ||  
+                                    _tplConfig[x][y+1]      == "bottom"  ||
+                                    _tplConfig[x][y+2]      == "top"     || 
+                                    _tplConfig[x][y+2]      == "left"    ||  
+                                    _tplConfig[x][y+2]      == "right"   ||  
+                                    _tplConfig[x][y+2]      == "bottom"  ||
+                                    _tplConfig[x][y+3]      == "top"     || 
+                                    _tplConfig[x][y+3]      == "left"    ||  
+                                    _tplConfig[x][y+3]      == "right"   ||  
+                                    _tplConfig[x][y+3]      == "bottom"){
+                                        
+                                        if(_tplConfig[x][y+2] == undefined ){
+                                            console.log("validated");
+                                        }else{
+                                           // console.log(_tplConfig[x][y+2]);
+                                        }
+
+                                        console.log("_____________________");
+
+                                        if(_tplConfig[x][y+1] == undefined ){
+                                            console.log("validated");
+                                        }else{
+                                           // console.log(_tplConfig[x][y+1])
+                                        }
+
+                                        console.log("_____________________");
+
+                                        console.log(_tplConfig[x][y+2]);
+                                        console.log(y+2)
+
+                                        if(_tplConfig[x][y+3] == undefined ){
+                                            console.log("validated");
+                                        }else{
+                                            console.log(_tplConfig[x][y+3]);
+                                        }
+
+
+
+                                    
+                                }
+                                
+
+                            }
+                        }
+                    }
                 }
 
                 /* element */
@@ -281,7 +365,7 @@ ___ = {
                 /* 
                     if type of next to is not empty go bellow, if next levels exists either or is the applicable statements
                 */
-                if(typeof(str[1]) !== undefined || typeof(str[2]) !== undefined || typeof(str[3]) !== undefined){1
+            if(typeof(str[1]) !== undefined || typeof(str[2]) !== undefined || typeof(str[3]) !== undefined){
                     
                     /* 
                         
@@ -410,6 +494,7 @@ ___ = {
                     raisedMessage = document.createElement("h3");
                     raisedMessages.appendChild(raisedMessage);
                     raisedMessage.setAttribute("class","line-animation");
+                    
                 }
 
             }
@@ -577,8 +662,6 @@ ___ = {
 
             /* URI router */
             self.___.router._();
-
-            self.___.tpl._("css");
         }
     }
 }

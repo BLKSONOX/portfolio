@@ -188,7 +188,13 @@ ___ = {
                                         mathematical differentials within uniformity
 
                                     */
-                                    if(_tplConfig[x][y+1]   == "top"     || 
+                                    if(
+                                    _tplConfig[x][y]        == "top"     || 
+                                    _tplConfig[x][y]        == "left"    ||  
+                                    _tplConfig[x][y]        == "right"   ||  
+                                    _tplConfig[x][y]        == "bottom"  ||
+                                    _tplConfig[x][y]        == "top"     ||
+                                    _tplConfig[x][y+1]      == "top"     || 
                                     _tplConfig[x][y+1]      == "left"    ||  
                                     _tplConfig[x][y+1]      == "right"   ||  
                                     _tplConfig[x][y+1]      == "bottom"  ||
@@ -199,7 +205,8 @@ ___ = {
                                     _tplConfig[x][y+3]      == "top"     || 
                                     _tplConfig[x][y+3]      == "left"    ||  
                                     _tplConfig[x][y+3]      == "right"   ||  
-                                    _tplConfig[x][y+3]      == "bottom"){
+                                    _tplConfig[x][y+3]      == "bottom"
+                                    ){
 
                                         /*
                                             
@@ -237,6 +244,15 @@ ___ = {
                                             it's possible to streamline and modify the algorithm to be less then it is as well
 
                                         */
+                                        
+                                        if(_tplConfig[x][y] == undefined ){
+                                            console.log("validated");
+                                        }else{
+                                        // find position owner
+                                        //console.log(_tplConfig[x][y]);
+                                        // console.log(_tplConfig[x][y+2]);
+                                        console.log(_tplConfig[x][y]+"+"+_tplConfig[x][y+1]+"+"+_tplConfig[x][y+2]);
+                                        }
                                         
                                         if(_tplConfig[x][y+2] == undefined ){
                                             console.log("validated");

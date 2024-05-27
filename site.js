@@ -184,6 +184,7 @@ ___ = {
                                         old way of doing things before struct existed was string objects, which still is very useful today
 
                                         Array padding also stems from combinators in math, in octal, hexidecimals, and decimals
+                                        array padding also allows for mathematical stop steps, very useful
 
                                     */
                                     if(_tplConfig[x][y+1]   == "top"     || 

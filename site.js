@@ -183,7 +183,9 @@ ___ = {
                                         why? unique identifier working with tables that's very useful if doing instructions sets and commands sets
                                         old way of doing things before struct existed was string objects, which still is very useful today
 
-                                        like blowing soap bubbles, same physics princieples
+                                        
+
+                                      
 
                                     */
                                     if(_tplConfig[x][y+1]   == "top"     || 
@@ -200,6 +202,7 @@ ___ = {
                                     _tplConfig[x][y+3]      == "bottom"){
 
                                         /*
+                                            
                                             When uneven results use match sets from the orignal object not parted
                                             programatically equal return 0
 
@@ -212,7 +215,12 @@ ___ = {
                                             same principles applies in regards to: Keep the loops alive
                                             you would have to change the main loop integer into a position
 
+                                            like blowing soap bubbles, same physics princeples
+
                                             which is why array padding is useful for identifiers
+                                            however there's also useful events when you don't need that and the holes from the missing data or wrong order is useful
+                                            physics collisions and AI learning
+
                                         */
                                         
                                         if(_tplConfig[x][y+2] == undefined ){

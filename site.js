@@ -133,26 +133,27 @@ ___ = {
     },
 
     tpl: {
-        _(type, object){
+        _(type, _object){
             if(type == "page"){
-                document.body.innerHTML = ''; 
+                //document.body.innerHTML = ''; 
+                _object = Object.values(_object);
 
-                for(i =0; object.length < 10; i++){
-
+                for(i = 0; i < _object.length; i++){
+                    console.log(_object[i]);
                 }
 
                 /* element */
-                document.body.setAttribute("id", "ls");
-                document.body.appendChild(document.createElement("div"));
-                raisedMessages = document.querySelector("div");
-                raisedMessages.setAttribute("id","ls -l");
+                // document.body.setAttribute("id", "ls");
+                // document.body.appendChild(document.createElement("div"));
+                // raisedMessages = document.querySelector("div");
+                // raisedMessages.setAttribute("id","ls -l");
     
                 /* Headline Debug */
-                raisedMessage = document.createElement("h1");
-                raisedMessages.appendChild(raisedMessage);
-                raisedMessage.setAttribute("id","ls-title");
-                content = document.createTextNode("Test Page");
-                raisedMessage.appendChild(content);
+                // raisedMessage = document.createElement("h1");
+                // raisedMessages.appendChild(raisedMessage);
+                // raisedMessage.setAttribute("id","ls-title");
+                // content = document.createTextNode("Test Page");
+                // raisedMessage.appendChild(content);
 
             }
         },
@@ -264,7 +265,7 @@ ___ = {
                 */
 
 
-                // process serialization here
+                // process URI string serialization here
                 // this is also a cool algorithm for something
 
                 if(typeof(str[1]) == undefined && typeof(str[2]) == undefined && typeof(str[3]) == undefined) self.___.uris.push(str);
@@ -292,6 +293,8 @@ ___ = {
                             also bind to static hash change
                          
                         */
+
+
                     }
                 }
                
@@ -550,13 +553,14 @@ ___ = {
             
             */
 
-            const tplpage_0 = {
+            tplpage_0 = {
                 title: "page title",
                 contentGrid: "fullwidth:nav-top-left:hero-picture-left:hero-text-left:content-square-grid",
             }
 
 
-            self.____.tpl._("page", tplpage_0);
+            self.___.tpl._("page", tplpage_0);
+
 
             self.___.generatePageDocument._(null, null, "data", "#/page");
             self.___.generatePageDocument._(null, null, "data", "#/page/innerPage");

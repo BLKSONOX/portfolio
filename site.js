@@ -217,7 +217,9 @@ ___ = {
 
                                             which is why array padding is useful for identifiers
                                             however there's also useful events when you don't need that and the holes from the missing data or wrong order is useful
-                                            physics collisions and AI learning
+                                            physics collisions and AI learning and for drawing time events and functions callbacks outside of the loops
+
+                                            also called Asynchronous programming
 
                                         */
                                         

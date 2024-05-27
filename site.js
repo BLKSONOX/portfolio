@@ -231,6 +231,8 @@ ___ = {
                                             search and match engines, why? in order to order the stack of commands into HTML making sure the loop follows the HTML structures
                                             allows for events to be set and callbacks to be set at the right interjecting moments
 
+                                            relational databases is rooted in linguistic and human interaction research, won't go into that in this document
+
                                         */
                                         
                                         if(_tplConfig[x][y+2] == undefined ){

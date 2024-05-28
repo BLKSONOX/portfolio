@@ -145,7 +145,7 @@ ___ = {
                 for(i = 0; i < _object.length; i++){
                     
                     // replace with callback function
-                    document.title = _object[0]
+                    // document.title = _object[0]
                     
                     if(_object[i] == _object[1]){
                         
@@ -245,26 +245,28 @@ ___ = {
 
                                             also the root of basic obfuscation of data, basic cryptography, find the key within the loop
 
+                                            when younger used PostreSQL for this
+
                                         */
                                         
                                         if(_tplConfig[x][y] == undefined ){
                                             console.log("validated");
                                         }else{
-                                        // find position owner
-                                        //console.log(_tplConfig[x][y]);
-                                        // console.log(_tplConfig[x][y+2]);
-                                        console.log(_tplConfig[x][y]+"+"+_tplConfig[x][y+1]+"+"+_tplConfig[x][y+2]+"+"+_tplConfig[x][y+3]);
-                                        console.log(_tplConfig[x][y]+"+"+_tplConfig[x][y-1]+"+"+_tplConfig[x][y-2]+"+"+_tplConfig[x][y-3]);
+                                            // find position owner
+                                            //console.log(_tplConfig[x][y]);
+                                            // console.log(_tplConfig[x][y+2]);
+                                            console.log(_tplConfig[x][y]+"+"+_tplConfig[x][y+1]+"+"+_tplConfig[x][y+2]+"+"+_tplConfig[x][y+3]);
+                                            console.log(_tplConfig[x][y]+"+"+_tplConfig[x][y-1]+"+"+_tplConfig[x][y-2]+"+"+_tplConfig[x][y-3]);
                                         }
                                         
                                         if(_tplConfig[x][y+2] == undefined ){
                                             console.log("validated");
                                         }else{
-                                        // find position owner
-                                        //console.log(_tplConfig[x][y]);
-                                        // console.log(_tplConfig[x][y+2]);
-                                        console.log(_tplConfig[x][y]+"+"+_tplConfig[x][y+1]+"+"+_tplConfig[x][y+2]+"+"+_tplConfig[x][y+3]);
-                                        console.log(_tplConfig[x][y]+"+"+_tplConfig[x][y-1]+"+"+_tplConfig[x][y-2]+"+"+_tplConfig[x][y-3]);
+                                            // find position owner
+                                            //console.log(_tplConfig[x][y]);
+                                            // console.log(_tplConfig[x][y+2]);
+                                            console.log(_tplConfig[x][y]+"+"+_tplConfig[x][y+1]+"+"+_tplConfig[x][y+2]+"+"+_tplConfig[x][y+3]);
+                                            console.log(_tplConfig[x][y]+"+"+_tplConfig[x][y-1]+"+"+_tplConfig[x][y-2]+"+"+_tplConfig[x][y-3]);
                                         }
 
                                         console.log("_____________________");
@@ -272,10 +274,10 @@ ___ = {
                                         if(_tplConfig[x][y+1] == undefined ){
                                             console.log("validated");
                                         }else{
-                                        // find position owner
-                                        console.log(_tplConfig[x][y]+"+"+_tplConfig[x][y+1]+"+"+_tplConfig[x][y+2]+"+"+_tplConfig[x][y+3]);
-                                        console.log(_tplConfig[x][y]+"+"+_tplConfig[x][y-1]+"+"+_tplConfig[x][y-2]+"+"+_tplConfig[x][y-3]);
-                                        // console.log(_tplConfig[x][y+1])
+                                            // find position owner
+                                            console.log(_tplConfig[x][y]+"+"+_tplConfig[x][y+1]+"+"+_tplConfig[x][y+2]+"+"+_tplConfig[x][y+3]);
+                                            console.log(_tplConfig[x][y]+"+"+_tplConfig[x][y-1]+"+"+_tplConfig[x][y-2]+"+"+_tplConfig[x][y-3]);
+                                            // console.log(_tplConfig[x][y+1])
                                         }
 
                                         console.log("_____________________");
@@ -283,14 +285,11 @@ ___ = {
                                         if(_tplConfig[x][y+3] == undefined ){
                                             console.log("validated");
                                         }else{
-                                        // find position owner
-                                        console.log(_tplConfig[x][y]+"+"+_tplConfig[x][y+1]+"+"+_tplConfig[x][y+2]+"+"+_tplConfig[x][y+3]);
-                                        console.log(_tplConfig[x][y]+"+"+_tplConfig[x][y-1]+"+"+_tplConfig[x][y-2]+"+"+_tplConfig[x][y-3]);
-                                        // console.log(_tplConfig[x][y+3]);
+                                            // find position owner
+                                            console.log(_tplConfig[x][y]+"+"+_tplConfig[x][y+1]+"+"+_tplConfig[x][y+2]+"+"+_tplConfig[x][y+3]);
+                                            console.log(_tplConfig[x][y]+"+"+_tplConfig[x][y-1]+"+"+_tplConfig[x][y-2]+"+"+_tplConfig[x][y-3]);
+                                            // console.log(_tplConfig[x][y+3]);
                                         }
-
-
-
                                     
                                 }
                                 

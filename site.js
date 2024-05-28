@@ -246,6 +246,7 @@ ___ = {
                                             also the root of basic obfuscation of data, basic cryptography, find the key within the loop
 
                                             when i was younger used PostgreSQL for this and C and JavaScript
+                                            old Microsoft CGI JavScript engine *nix operating systems had that as well
 
                                         */
                                         

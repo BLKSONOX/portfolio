@@ -71,9 +71,12 @@ main#desc{ width: 700px; margin-left: auto; margin-right: auto;}
 /* 
     Illustrations containers and values 
 */
-main#sample-illustrations{ animation: FadeInAnim ease 3s; animation-iteration-count: 1;}
-main#sample-illustrations{ padding-bottom: 20px;}
-main#sample-illustrations article{ padding-bottom: 20px;}
+main#sample-illustrations{ padding-bottom: 20px; display: grid; animation: FadeInAnim ease 3s; animation-iteration-count: 1; 
+    grid-template-areas: "article article article"
+                         "article article article"
+                         "article article article";
+    grid-template-columns: 300px 300px 300px;}
+main#sample-illustrations article{ padding-bottom: 20px;  width: 100%; grid-area: "article";}
 main#sample-illustrations article img{ width: 100%; /* border-radius: 700px; for later use TV waiting screen ideas */ }
 
 

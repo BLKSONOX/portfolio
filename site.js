@@ -34,7 +34,7 @@ ___ = {
     
     
     /*
-        ASSII or SVG Animations
+        ASCII or SVG Animations
     */
     anim:{
         
@@ -153,7 +153,7 @@ ___ = {
                         _tplConfig  = _tplConfig.split(':');
 
                         _tplConfig_  = _object[1];
-                        _tplConfig_  = _tplConfig_.split(':');
+                        _tplConfig_ = _tplConfig_.split(':');
 
                         for(x = 0; _tplConfig.length > x; x++){
 
@@ -189,23 +189,23 @@ ___ = {
 
                                     */
                                     if(
-                                    _tplConfig[x][y]        == "top"     || 
-                                    _tplConfig[x][y]        == "left"    ||  
-                                    _tplConfig[x][y]        == "right"   ||  
-                                    _tplConfig[x][y]        == "bottom"  ||
-                                    _tplConfig[x][y]        == "top"     ||
-                                    _tplConfig[x][y+1]      == "top"     || 
-                                    _tplConfig[x][y+1]      == "left"    ||  
-                                    _tplConfig[x][y+1]      == "right"   ||  
-                                    _tplConfig[x][y+1]      == "bottom"  ||
-                                    _tplConfig[x][y+2]      == "top"     || 
-                                    _tplConfig[x][y+2]      == "left"    ||  
-                                    _tplConfig[x][y+2]      == "right"   ||  
-                                    _tplConfig[x][y+2]      == "bottom"  ||
-                                    _tplConfig[x][y+3]      == "top"     || 
-                                    _tplConfig[x][y+3]      == "left"    ||  
-                                    _tplConfig[x][y+3]      == "right"   ||  
-                                    _tplConfig[x][y+3]      == "bottom"
+                                        _tplConfig[x][y]        == "top"     || 
+                                        _tplConfig[x][y]        == "left"    ||  
+                                        _tplConfig[x][y]        == "right"   ||  
+                                        _tplConfig[x][y]        == "bottom"  ||
+                                        _tplConfig[x][y]        == "top"     ||
+                                        _tplConfig[x][y+1]      == "top"     || 
+                                        _tplConfig[x][y+1]      == "left"    ||  
+                                        _tplConfig[x][y+1]      == "right"   ||  
+                                        _tplConfig[x][y+1]      == "bottom"  ||
+                                        _tplConfig[x][y+2]      == "top"     || 
+                                        _tplConfig[x][y+2]      == "left"    ||  
+                                        _tplConfig[x][y+2]      == "right"   ||  
+                                        _tplConfig[x][y+2]      == "bottom"  ||
+                                        _tplConfig[x][y+3]      == "top"     || 
+                                        _tplConfig[x][y+3]      == "left"    ||  
+                                        _tplConfig[x][y+3]      == "right"   ||  
+                                        _tplConfig[x][y+3]      == "bottom"
                                     ){
 
                                         /*
@@ -243,6 +243,8 @@ ___ = {
                                             relational databases is rooted in linguistic and human interaction research, won't go into that in this document
                                             it's possible to streamline and modify the algorithm to be less then it is as well
 
+                                            also the root of basic obfuscation of data, basic cryptography, find the key within the loop
+
                                         */
                                         
                                         if(_tplConfig[x][y] == undefined ){
@@ -251,7 +253,8 @@ ___ = {
                                         // find position owner
                                         //console.log(_tplConfig[x][y]);
                                         // console.log(_tplConfig[x][y+2]);
-                                        console.log(_tplConfig[x][y]+"+"+_tplConfig[x][y+1]+"+"+_tplConfig[x][y+2]);
+                                        console.log(_tplConfig[x][y]+"+"+_tplConfig[x][y+1]+"+"+_tplConfig[x][y+2]+"+"+_tplConfig[x][y+3]);
+                                        console.log(_tplConfig[x][y]+"+"+_tplConfig[x][y-1]+"+"+_tplConfig[x][y-2]+"+"+_tplConfig[x][y-3]);
                                         }
                                         
                                         if(_tplConfig[x][y+2] == undefined ){
@@ -260,7 +263,8 @@ ___ = {
                                         // find position owner
                                         //console.log(_tplConfig[x][y]);
                                         // console.log(_tplConfig[x][y+2]);
-                                        console.log(_tplConfig[x][y]+"+"+_tplConfig[x][y+1]+"+"+_tplConfig[x][y+2]);
+                                        console.log(_tplConfig[x][y]+"+"+_tplConfig[x][y+1]+"+"+_tplConfig[x][y+2]+"+"+_tplConfig[x][y+3]);
+                                        console.log(_tplConfig[x][y]+"+"+_tplConfig[x][y-1]+"+"+_tplConfig[x][y-2]+"+"+_tplConfig[x][y-3]);
                                         }
 
                                         console.log("_____________________");
@@ -269,7 +273,8 @@ ___ = {
                                             console.log("validated");
                                         }else{
                                         // find position owner
-                                        console.log(_tplConfig[x][y]+"+"+_tplConfig[x][y+1]+"+"+_tplConfig[x][y+2]);
+                                        console.log(_tplConfig[x][y]+"+"+_tplConfig[x][y+1]+"+"+_tplConfig[x][y+2]+"+"+_tplConfig[x][y+3]);
+                                        console.log(_tplConfig[x][y]+"+"+_tplConfig[x][y-1]+"+"+_tplConfig[x][y-2]+"+"+_tplConfig[x][y-3]);
                                         // console.log(_tplConfig[x][y+1])
                                         }
 
@@ -279,6 +284,8 @@ ___ = {
                                             console.log("validated");
                                         }else{
                                         // find position owner
+                                        console.log(_tplConfig[x][y]+"+"+_tplConfig[x][y+1]+"+"+_tplConfig[x][y+2]+"+"+_tplConfig[x][y+3]);
+                                        console.log(_tplConfig[x][y]+"+"+_tplConfig[x][y-1]+"+"+_tplConfig[x][y-2]+"+"+_tplConfig[x][y-3]);
                                         // console.log(_tplConfig[x][y+3]);
                                         }
 
@@ -329,6 +336,19 @@ ___ = {
             
         },
     },
+
+    /*
+
+    */
+   events: {
+        _(){
+            _date = new Date()
+            for(i = 0; i < 10; i++){
+
+            }
+        },
+   },
+
 
     /*  
         Document HTML document, streams and channels, also Database Document stream and channels
@@ -729,6 +749,7 @@ ___ = {
 
             /* URI router */
             self.___.router._();
+
         }
     }
 }

@@ -35,6 +35,7 @@ ___ = {
     
     /*
         ASCII or SVG Animations
+        expand later with CSS animations
     */
     anim:{
         

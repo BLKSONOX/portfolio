@@ -245,7 +245,7 @@ ___ = {
 
                                             also the root of basic obfuscation of data, basic cryptography, find the key within the loop
 
-                                            when younger used PostreSQL for this
+                                            when younger used PostgreSQL for this
 
                                         */
                                         

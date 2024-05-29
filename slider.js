@@ -13,6 +13,11 @@
 
     it's not just an image slider sate function calls
 
+    you can solve this with CSS, however when delivering to serverside 
+    this is aproximatly the solution, because of doucment and data flow control
+
+    Why React has components
+
 */
 slider = {
 
@@ -64,6 +69,8 @@ slider = {
                     
                 }, self.slider.slideTime);
 
+        },
+        buttons:{
 
         }
     }

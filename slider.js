@@ -23,51 +23,45 @@ slider = {
         _(){
 
            const interval = window.setInterval(function(){
-            
-                const date = new Date();
-                console.log(date.toLocaleTimeString());
-    
-                const slide1 = document.getElementById("slide1");
-                const slide2 = document.getElementById("slide2");
+
+            const slide1 = document.getElementById("slide1");
+            const slide2 = document.getElementById("slide2");
+            const slide3 = document.getElementById("slide3");
+
+            if(self.slider.intervalCount === 1 || self.slider.intervalCount === 0){
     
                 slide2.classList.remove("hidden");
                 slide2.classList.add("show");
-    
                 slide1.classList.remove("show");
                 slide1.classList.add("hidden");
+                // add callback function within the class to change IMG tag after first slide run is shown
+            }
 
-                // add callback function within the class to change IMG tag
-    
-                setTimeout(function(){
-                    const slide3 = document.getElementById("slide3");
-                    const slide2 = document.getElementById("slide2");
-    
-                    slide3.classList.remove("hidden");
-                    slide3.classList.add("show");
-    
-                    slide2.classList.remove("show");
-                    slide2.classList.add("hidden");
+            if(self.slider.intervalCount === 2 || self.slider.intervalCount === 0){
 
-                    // add callback function within the class to change IMG tag
-    
-                    setTimeout(function(){
-                        // The end is the begining, logic
-                        const slide3 = document.getElementById("slide3");
-                        const slide1 = document.getElementById("slide1");
-    
-                        slide1.classList.remove("hidden");
-                        slide1.classList.add("show");
-    
-                        slide3.classList.remove("show");
-                        slide3.classList.add("hidden");
+                slide3.classList.remove("hidden");
+                slide3.classList.add("show");
+                slide2.classList.remove("show");
+                slide2.classList.add("hidden");
+                // add callback function within the class to change IMG tag after first slide run is shown
+            }
 
-                        // add callback function within the class to change IMG tag
-                        self.intervalCount = elf.intervalCount+1;
-                        if(self.intervalCount > 2) return self.slider.init._();
+            if(self.slider.intervalCount === 3 || self.slider.intervalCount === 0){
+
+                slide1.classList.remove("hidden");
+                slide1.classList.add("show");
+                slide3.classList.remove("show");
+                slide3.classList.add("hidden");
+               // add callback function within the class to change IMG tag after first slide run is shown
+            }
+            
+            if(self.slider.intervalCount > 2){
+                self.slider.intervalCount = 0;
+            } 
+
+            self.slider.intervalCount = self.slider.intervalCount+1;
                         
-                    }, self.slider.slideTime);
-    
-                },  self.slider.slideTime);
+
                 
             }, self.slider.slideTime);
 

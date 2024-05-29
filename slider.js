@@ -17,6 +17,7 @@
 slider = {
 
     slideTime: 5000,
+    intervalCount: 0,
 
     init:{
         _(){
@@ -61,8 +62,8 @@ slider = {
                         slide3.classList.add("hidden");
 
                         // add callback function within the class to change IMG tag
-
-                        return self.slider.init._();
+                        self.intervalCount = elf.intervalCount+1;
+                        if(self.intervalCount > 2) return self.slider.init._();
                         
                     }, self.slider.slideTime);
     

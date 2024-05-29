@@ -66,18 +66,36 @@ main#desc{ animation: down 1s; animation-iteration-count: 1;}
 main#desc h1 .material-symbols-outlined{ margin-left: 45%;}
 main#desc > h1, main#desc > h3, main#desc > h4{ animation: FadeInAnim ease 2s; animation-iteration-count: 1;}
 main#desc h3{ padding: 20px 0  100px 0;}
-main#desc{ width: 700px; margin-left: auto; margin-right: auto;}
+main#desc{ width: 50%; margin-left: auto; margin-right: auto;}
 
 /* 
     Illustrations containers and values 
 */
-main#sample-illustrations{ padding-bottom: 20px; display: grid; animation: FadeInAnim ease 3s; animation-iteration-count: 1; 
+main#sample-illustrations{ margin: 0px; display: grid; animation: FadeInAnim ease 3s; animation-iteration-count: 1; 
     grid-template-areas: "article article article"
                          "article article article"
                          "article article article";
-    grid-template-columns: 300px 300px 300px;}
-main#sample-illustrations article{ padding-bottom: 20px;  width: 100%; grid-area: "article";}
-main#sample-illustrations article img{ width: 100%; /* border-radius: 700px; for later use TV waiting screen ideas */ }
+    grid-template-columns: 1fr 1fr 1fr; column-gap: 15px; row-gap: 10px;}
+main#sample-illustrations article{ margin: 0px; width: 100%; grid-area: "article";}
+main#sample-illustrations article img{ width: 100%; border-radius: 700px; }
+
+main#sample-illustrations article:hover img{border-radius: 0px;}
+
+
+/* 
+    Slider
+*/
+main#slider{ margin: 0px; display: grid; animation: FadeInAnim ease 3s; animation-iteration-count: 1; 
+    grid-template-areas: "article article"
+                         "article article"
+                         "article article";
+    grid-template-columns: 1fr 1fr; column-gap: 15px; row-gap: 10px;}
+main#slider article{ margin: 0px; width: 100%; grid-area: "article"; position: relative;}
+main#slider article img{ width: 100%; border-radius: 700px; }
+main#slider article:hover img{border-radius: 0px;}
+
+main#slider article.hidden{display: none;}
+main#slider article.show{animation: FadeInAnim ease 2s; animation-iteration-count: 1;}
 
 
 

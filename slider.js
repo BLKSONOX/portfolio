@@ -14,7 +14,7 @@
     this is aproximatly the solution, because of doucment and data flow control
 
     Why React has components, also why ther's a dispute on the browser covering the CSS Object Model
-    as a javaScript API, document standard still being developed even if Mozilla and other says it's depracated
+    as a javaScript API, document standard still being developed even if Mozilla and others says it's depracated
 
     https://developer.mozilla.org/en-US/docs/Web/API/CSS_Object_Model
 

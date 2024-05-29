@@ -1,5 +1,19 @@
 
 
+
+/*
+    
+    How sliders usually are done
+    rotation figured out, then change the IMG source tag
+
+    set interval ID then unset it
+
+    this method i backwards compatible with extremley old browsers
+    and follows standards, and the code for it is shorter
+
+    it's not just an image slider sate function calls
+
+*/
 slider = {
 
     slideTime: 5000,
@@ -11,9 +25,6 @@ slider = {
             
                 const date = new Date();
                 console.log(date.toLocaleTimeString());
-
-                // Do a timed repeat for loop or event action call
-                // not quite done with this
     
                 const slide1 = document.getElementById("slide1");
                 const slide2 = document.getElementById("slide2");

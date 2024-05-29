@@ -50,4 +50,5 @@ slider = {
 
 window.onload = function(){
     slider.init._();
+    // Do a timed repeat for loop or event action call
 }

@@ -35,7 +35,7 @@ slider = {
                     slide2.classList.add("hidden");
     
                     setTimeout(function(){
-                        // The end is the begining
+                        // The end is the begining, logic
                         const slide3 = document.getElementById("slide3");
                         const slide1 = document.getElementById("slide1");
     

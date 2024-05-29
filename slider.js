@@ -61,8 +61,6 @@ slider = {
                 } 
 
                 self.slider.intervalCount = self.slider.intervalCount+1;
-                            
-                console.log(self.slider.slideTime);
                     
                 }, self.slider.slideTime);
 

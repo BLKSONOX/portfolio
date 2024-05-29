@@ -21,7 +21,7 @@ slider = {
     init:{
         _(){
 
-            setInterval(function(){
+           const interval = window.setInterval(function(){
             
                 const date = new Date();
                 console.log(date.toLocaleTimeString());
@@ -34,6 +34,8 @@ slider = {
     
                 slide1.classList.remove("show");
                 slide1.classList.add("hidden");
+
+                // add callback function within the class to change IMG tag
     
                 setTimeout(function(){
                     const slide3 = document.getElementById("slide3");
@@ -44,6 +46,8 @@ slider = {
     
                     slide2.classList.remove("show");
                     slide2.classList.add("hidden");
+
+                    // add callback function within the class to change IMG tag
     
                     setTimeout(function(){
                         // The end is the begining, logic
@@ -55,6 +59,10 @@ slider = {
     
                         slide3.classList.remove("show");
                         slide3.classList.add("hidden");
+
+                        // add callback function within the class to change IMG tag
+
+                        return self.slider.init._();
                         
                     }, self.slider.slideTime);
     
@@ -67,6 +75,4 @@ slider = {
     }
 }
 
-window.onload = function(){
-    slider.init._();
-}
+slider.init._();

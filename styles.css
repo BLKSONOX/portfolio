@@ -98,6 +98,16 @@ main#slider article.hidden{display: none;}
 main#slider article.show{animation: FadeInAnim ease 2s; animation-iteration-count: 1;}
 
 
+main#slider2{ margin: 0px; display: grid; animation: FadeInAnim ease 3s; animation-iteration-count: 1; 
+    grid-template-areas: "article"
+                         "article"
+                         "article";
+    grid-template-columns: 1fr; column-gap: 15px; row-gap: 10px; grid-template-rows:1fr; overflow: hidden;}
+main#slider2 article{ margin: 0px; width: 100%; grid-area: "article"; position: relative;}
+main#slider2 article img{ width: 100%; border-radius: 700px; }
+main#slider2 article:hover img{border-radius: 0px;}
+
+
 
 /*
     

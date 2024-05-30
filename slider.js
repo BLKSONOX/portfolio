@@ -27,15 +27,22 @@ slider = {
 
     slideTime:      0,
     intervalCount:  0,
+    seconds:        0,
+    interval:       0,
 
     init:{
         _(){
 
-            const interval = setInterval(function(){
+            self.slider.interval = setInterval(function(){
 
+                const d      = new Date();
                 const slide1 = document.getElementById("slide1");
                 const slide2 = document.getElementById("slide2");
                 const slide3 = document.getElementById("slide3");
+
+                self.slider.seconds     = d.getSeconds();
+                
+                if(self.slider.seconds <= 30) clearInterval(self.slider.interval);
 
                 if(self.slider.intervalCount === 1 || self.slider.intervalCount === 0){
         
@@ -71,14 +78,12 @@ slider = {
 
                 self.slider.intervalCount = self.slider.intervalCount+1;
                     
-                }, self.slider.slideTime);
-
-        },
-        buttons:{
+                }, self.slider.slideTime, "slider");
+            
+            }
 
         }
     }
-}
 
 slider.slideTime = 3000;
 slider.init._();

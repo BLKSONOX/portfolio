@@ -35,14 +35,21 @@ slider = {
 
             self.slider.interval = setInterval(function(){
 
-                const d      = new Date();
+                const d = new Date();
+
+                if(self.slider.intervalCount === 0){
+                    d.setSeconds(0);
+                }
+                
+                self.slider.seconds     = d.getSeconds();
+
                 const slide1 = document.getElementById("slide1");
                 const slide2 = document.getElementById("slide2");
                 const slide3 = document.getElementById("slide3");
 
-                self.slider.seconds     = d.getSeconds();
-                
-                if(self.slider.seconds <= 30) clearInterval(self.slider.interval);
+                console.log(self.slider.seconds);
+
+                if(self.slider.seconds === 59) clearInterval(self.slider.interval);
 
                 if(self.slider.intervalCount === 1 || self.slider.intervalCount === 0){
         
@@ -78,7 +85,7 @@ slider = {
 
                 self.slider.intervalCount = self.slider.intervalCount+1;
                     
-                }, self.slider.slideTime, "slider");
+                }, self.slider.slideTime);
             
             }
 

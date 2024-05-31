@@ -25,7 +25,7 @@
 
 */
 
-___ = {
+____ = {
 
     matriceCollections: [],
     articles:           [],
@@ -446,8 +446,8 @@ ___ = {
                 // process URI string serialization here
                 // this is also a cool algorithm for something
 
-                if(typeof(str[1]) == undefined && typeof(str[2]) == undefined && typeof(str[3]) == undefined) self.___.uris.push(str);
-                if(typeof(str[1]) == undefined || typeof(str[2]) == undefined || typeof(str[3]) == undefined) self.___.uris.push(str);
+                if(typeof(str[1]) == undefined && typeof(str[2]) == undefined && typeof(str[3]) == undefined) self.____.uris.push(str);
+                if(typeof(str[1]) == undefined || typeof(str[2]) == undefined || typeof(str[3]) == undefined) self.____.uris.push(str);
 
 
                 /* 
@@ -462,7 +462,7 @@ ___ = {
                         URI event listener, closed if scope, possibly set up switch statement instead
 
                     */
-                    if(str[0] == self.___.uris[0]){
+                    if(str[0] == self.____.uris[0]){
 
                         /* 
                             
@@ -553,7 +553,7 @@ ___ = {
 
             */
 
-            self.___.url.protocols = []
+            self.____.url.protocols = []
     
 
             /* 
@@ -561,7 +561,7 @@ ___ = {
                 automate console.log and html rendering, streamlined
             */
 
-            if (self.___.url.hash == "#/ls-l"){
+            if (self.____.url.hash == "#/ls-l"){
                 window.onload = function(){
                     document.body.innerHTML = ''; 
 
@@ -587,17 +587,17 @@ ___ = {
 
             }
             
-            if (self.___.url.hash == "#/debug"){
+            if (self.____.url.hash == "#/debug"){
                 /* 
                     Console view, mostly useful for inline dev 
                 */
                 console.log("________________________: Client debug");
                 console.log("____: Protocols Array");
-                console.log(self.___.url.protocols);
+                console.log(self.____.url.protocols);
                 console.log("____: URL Object");
-                console.log(self.___.url)
+                console.log(self.____.url)
                 console.log("____: URI's");
-                console.log(self.___.uris)
+                console.log(self.____.uris)
                 console.log("________________________: Server debug");
 
                 /* 
@@ -638,7 +638,7 @@ ___ = {
                     raisedMessage = document.createElement("p");
                     raisedMessages.appendChild(raisedMessage);
                     raisedMessage.setAttribute("class","debug");
-                    content = document.createTextNode(JSON.stringify(self.___.url.protocols));
+                    content = document.createTextNode(JSON.stringify(self.____.url.protocols));
                     raisedMessage.appendChild(content);
 
                     /* Message URL */
@@ -652,7 +652,7 @@ ___ = {
                     raisedMessage = document.createElement("p");
                     raisedMessages.appendChild(raisedMessage);
                     raisedMessage.setAttribute("class","debug");
-                    content = document.createTextNode(JSON.stringify(self.___.url.hash));
+                    content = document.createTextNode(JSON.stringify(self.____.url.hash));
                     raisedMessage.appendChild(content);
 
                     /* Message URI */
@@ -666,7 +666,7 @@ ___ = {
                     raisedMessage = document.createElement("p");
                     raisedMessages.appendChild(raisedMessage);
                     raisedMessage.setAttribute("class","debug");
-                    content = document.createTextNode(JSON.stringify(self.___.uris));
+                    content = document.createTextNode(JSON.stringify(self.____.uris));
                     raisedMessage.appendChild(content);
 
                     /* Headline Server */
@@ -738,18 +738,18 @@ ___ = {
             }
 
 
-            self.___.tpl._("page", tplpage_0);
+            self.____.tpl._("page", tplpage_0);
 
 
-            self.___.generatePageDocument._(null, null, "data", "#/page");
-            self.___.generatePageDocument._(null, null, "data", "#/page/innerPage");
+            self.____.generatePageDocument._(null, null, "data", "#/page");
+            self.____.generatePageDocument._(null, null, "data", "#/page/innerPage");
             
 
             /* modal box setup */
             /* ___.generatePageDocument._(null, null, "blob", "#/page/modal/<boxType>"); */
 
             /* URI router */
-            self.___.router._();
+            self.____.router._();
 
         }
     }
@@ -759,7 +759,7 @@ ___ = {
 /* 
     Make JSON file to configure whole site
  */
-___.controller._();
+____.controller._();
 
 
 
@@ -783,7 +783,7 @@ ___.controller._();
     and with full channel controll to have multiple video channels mixed
 
 */
-___.matriceCollections[0] = 
+____.matriceCollections[0] = 
 [ 
 
  /* 

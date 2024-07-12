@@ -416,6 +416,8 @@ ____ = {
 
                 Heavyside step function on 20x20
                 https://en.wikipedia.org/wiki/Heaviside_step_function
+                
+                why is that used?
 
                 scale can cange before manipulation of the set, load set
                 fixed map, octal, decimal, hexidecimal, changed map

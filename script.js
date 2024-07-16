@@ -416,7 +416,7 @@ ____ = {
 
                 Heavyside step function on 20x20
                 https://en.wikipedia.org/wiki/Heaviside_step_function
-                
+
                 why is that used?
 
                 scale can cange before manipulation of the set, load set
@@ -570,6 +570,7 @@ ____ = {
                 https://en.wikipedia.org/wiki/Sine_and_cosine
                 https://en.wikipedia.org/wiki/Tangent
                  
+                this is also usually the data matrix and flow within a Operating systems kernel
                 
 
 

@@ -570,7 +570,7 @@ ____ = {
                 https://en.wikipedia.org/wiki/Sine_and_cosine
                 https://en.wikipedia.org/wiki/Tangent
                  
-                this is also usually the data matrix and flow within a Operating systems kernel
+                this is also usually the data matrix and flow within a Operating systems kernel the routing of the conversion usually from and to decimals
                 
 
 
